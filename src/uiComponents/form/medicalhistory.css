@@ -1,0 +1,88 @@
+.medicleHistory {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px !important;
+    overflow: scroll;
+    padding-top: 16px;
+}
+
+.medicleHistory tr th {
+    padding: 20px 55px;
+    border-bottom: 1.51px solid #19B3B5 !important;
+}
+
+.medicleHistory .table thead th {
+    padding-left: 31px !important;
+    padding-right: 31px !important;
+}
+
+.medicleHistory tr td {
+    padding: 20px 55px;
+    border-color: #D9D9D9 !important;
+}
+
+.medicleHistory::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: #D9D9D9;
+}
+
+.medicleHistory::-webkit-scrollbar {
+    width: 6px;
+    background-color: #D9D9D9;
+}
+
+.medicleHistory::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: #95949466;
+}
+
+.medicleHistory::-webkit-scrollbar:horizontal {
+    height: 6px;
+}
+
+
+.medicleHistory tr th {
+    color: #19B3B5;
+    font-family: "Circular Std";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.medicleHistory tr td {
+    color: #313131;
+    font-family: "Circular Std";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    word-spacing: -4px;
+}
+
+
+.medicleHistory.labReport tr th,
+.medicleHistory.labReport tr td {
+    padding: 20px 0 !important;
+    width: 100px;
+}
+.medicleHistory.labReport tr th:first-child,
+.medicleHistory.labReport tr td:first-child {
+    /* padding: 20px 15px !important; */
+    width: 120px;
+}
+.medicleHistory.labReport .kh-p0{
+    padding: 0 !important;
+}
+.medicleHistory.labReport tr {
+    vertical-align: middle;
+}
+
+.medicleHistory.labReport tr td {
+    font-weight: 300;
+}
+
+.medicleHistory.labReport tr th {
+    font-weight: 500 !important;
+    word-spacing: -4px;
+}

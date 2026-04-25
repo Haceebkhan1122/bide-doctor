@@ -1,0 +1,765 @@
+.sign-upnew .notificationToast {
+    top: 0;
+}
+
+.sign-upnew {
+    z-index: 99999;
+}
+
+.btn-okay {
+    border-radius: 12px;
+    background-color: #19b3b5;
+    color: white;
+    height: 48px;
+    padding: 0;
+    width: 100%;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.bookedAreaBooking .card {
+    margin-top: 40px !important;
+}
+
+
+
+.borderstyle {
+    position: relative;
+}
+
+.borderstyle:before {
+    content: '';
+    width: 1px;
+    height: 36%;
+    position: absolute;
+    left: 14px;
+    bottom: 2px;
+    border: 0.75px dashed #D9D9D9;
+}
+
+.borderstyle:nth-child(3):before {
+    bottom: 0px;
+}
+
+.sign-upnew .notificationToast .control_lang {
+    display: none;
+}
+
+a.activeclass {
+    /* border-bottom: 5px solid #19B3B5; */
+    margin-bottom: 0px !important;
+}
+
+.toast_blue.width_toast .Toastify__toast-container.Toastify__toast-container--top-right {
+    min-width: 440px;
+    width: 440px;
+}
+
+.zeind {
+    z-index: 9;
+}
+
+section#navbar .navbar-light .navbar-nav>a:last-child h5 {
+    color: #19B3B5 !important;
+}
+.notificationCount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #FFF;
+    font-family: "Circular Std";
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 450;
+     /* 6px */
+    letter-spacing: 0.06px;
+    width: 11px;
+    height: 11px;
+    background: #DA1C1C;
+    line-height: 11px;
+    border-radius: 50%;
+    text-align: center;
+}
+.main_step_box .ant-picker.ant-picker-status-success.no_icon_date span.ant-picker-suffix {
+    background: initial;
+    opacity: 0;
+}
+
+button.last {
+    text-align: right;
+}
+
+.ant-select-item.ant-select-item-option:hover .ant-select-item-option-content {
+    /* color: #fff !important; */
+}
+
+.my_profile {
+    margin-right: 18px;
+}
+
+.my_profile a {
+    border-radius: 8px;
+    border: 0.8px solid #51C8CD;
+    padding: 8px 11.8px 7.4px 12px;
+    color: #51C8CD;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.my_profile p {
+    border-radius: 8px;
+    border: 0.8px solid #51C8CD;
+    padding: 8px 11.8px 7.4px 12px;
+    color: #51C8CD;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.checkbox_blue {}
+
+.checkbox_blue label {
+    /* padding: 6px 9px; */
+    border: 1px solid #19B3B5;
+    margin-left: 0 !important;
+    margin-right: 8px;
+}
+
+.checkbox_blue label span.ant-checkbox {
+    padding-bottom: 8px;
+    padding-left: 7px;
+}
+
+.checkbox_blue label span.days {
+    padding-left: 0;
+}
+
+.add_more.position-relative.r-1.mobile-r1 {
+    justify-content: start;
+    margin-bottom: 30px;
+}
+
+.btn_add.t-nt:hover,
+.btn_add.t-nt:focus {
+    background: #fff;
+}
+
+.ant-modal-mask {
+    background-color:#31313182 !important;
+}
+
+.dashboardNew .percentageBar a.activebtn {
+    background: #51C8CD;
+    color: #fff;
+    border-color: #fff;
+}
+
+img.w-5 {
+    width: 20px;
+}
+
+.ant-select-item.ant-select-item-option.ant-select-item-option-selected .ant-select-item-option-content {
+    color: #fff !important;
+}
+
+
+.anticon svg {
+    fill: #31313100;
+}
+
+/* code for BIDE DR  */
+.datepickerBox .ant-picker.datepickerDate {
+    width: 210px;
+    height: 43px;
+    padding: 0 0 0 59px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    font-family: Circular Std;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-transform: capitalize;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: 93% center;
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L6.85858 6.85858C6.93668 6.93668 7.06332 6.93668 7.14142 6.85858L13 1' stroke='%23383838' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+}
+
+.imgCL {
+    position: absolute;
+    z-index: 9;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.datepickerBox .ant-picker.datepickerDate input {
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #959494;
+}
+
+.datepickerBox {
+    position: relative;
+}
+.headingtop {
+    color: #313131;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 24px;
+    margin-bottom: 18px;
+}
+.tabItem {
+    min-height: 44px !important;
+    height: 44px!important;
+    padding: 0 12px !important;
+    font-family: Circular Std!important;
+    font-size: 20px!important;
+    font-weight: 300!important;
+    line-height: normal!important;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px solid #313131 !important;
+    border-radius: 100px !important;
+    text-transform: capitalize !important;
+    margin-right: 14px !important;
+    color: #313131 !important;
+
+
+
+}
+.boxFollow{    width: 210px;
+    margin-left: auto;}
+.Mui-selected.tabItem {
+    color: #fff !important;
+    background: #EF6286 !important;
+    border: 1px solid #EF6286 !important;font-weight: 450!important;
+}
+
+.Mui-selected.tabItem span {
+    opacity: 0 !important;
+}
+
+.tabListingBIDE {
+    border: 0;
+    border-bottom: 0px !important;
+}
+
+.tabListingBIDE .MuiTabs-flexContainer.css-heg063-MuiTabs-flexContainer {
+    justify-content: start;
+}
+
+.tabListingBIDE span.MuiTabs-indicator.css-1aquho2-MuiTabs-indicator {
+    opacity: 0;
+}
+.tabContent {    height: 670px;
+    background: #fff;
+    border-radius: 0px 12px 12px 12px;
+}
+
+.mainTabletBox .gap_div {
+    width: 100%;
+}
+
+.mainTabletBox button.ant-btn.ant-btn-primary.simple_btn_small {
+    background-color: #29BCC1;
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 0px 20px;
+    width: 100%;
+    margin-top: 0px;
+    font-size: 15px;
+    min-height: 56px;
+    justify-content: center;
+    border: 1px solid #29BCC1;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.historyBox {}
+
+
+.verifyOtpConfirm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    
+}
+
+@media (min-width:0px) and (max-width:767px) {
+    .selectSpeciality .ant-select {
+        border-radius: 5px !important;
+    }
+
+    .selectSpeciality .ant-select {
+
+        padding: 4px 0;
+    }
+
+    .dashboardNew .percentageBar a {
+        margin: 0px auto 0;
+    }
+
+    .mobile_menu .m-auto.nav a:nth-child(2) {
+        display: none;
+    }
+
+    .checkbox_style.consultation_checkbox .video_consult {
+        margin-top: 18px;
+    }
+
+    .toast_sucsess01 .Toastify .Toastify__toast-container .Toastify__toast--success {
+        min-height: auto;
+        border-radius: 6px;
+        border: 0.5px solid #19B3B5;
+        background: #FFF;
+        padding: 0;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        top: 10px;
+    }
+
+    .toast_sucsess01 .Toastify .Toastify__toast-container .Toastify__toast--success button.Toastify__close-button.Toastify__close-button--light {
+        display: none;
+    }
+
+    .toast_sucsess01 .Toastify .Toastify__toast-container .Toastify__toast--success .Toastify__progress-bar.Toastify__progress-bar--animated.Toastify__progress-bar-theme--light.Toastify__progress-bar--success {
+        opacity: 0 !important;
+    }
+
+    .toast_sucsess01 .Toastify .Toastify__toast-container .Toastify__toast--success .Toastify__toast-icon {
+        display: none;
+    }
+
+    .toast_sucsess01 .Toastify .Toastify__toast-container .Toastify__toast--success p {
+        color: #19B3B5;
+        text-align: center;
+        font-family: Circular Std;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-top: 2px;
+    }
+
+    section.dashboardNew {
+        padding-top: 10px !important;
+    }
+
+    .profileLabels {
+        margin-top: 0 !important;
+        margin-left: 5px !important;
+    }
+
+    .checkbox_blue label {
+        height: auto;
+        padding-right: 10px;
+    }
+
+    .checkbox_blue label span.days {
+        padding-right: 10px;
+    }
+
+    .checkbox_blue label span {
+        line-height: 17px !important;
+    }
+
+    section#whychooseus .offset-md-1 img {
+        width: auto;
+    }
+
+    section#whychooseus .offset-md-1 img {
+        height: auto;
+    }
+
+    .toast_blue.width_toast .Toastify__toast-container.Toastify__toast-container--top-right {
+        min-width: 280px;
+        width: 280px;
+    }
+
+    .text-end.pos_mobile {
+        text-align: left !important;
+        margin-bottom: 10px;
+    }
+
+    section.footer.position-relative {
+        padding: 50px 15px;
+    }
+
+    .signup_otp_style .doctor-error-msg {
+        margin-left: 24px;
+        width: 266px !important;
+    }
+
+    .signup_otp_style .input-otp-error {
+        max-width: 266px;
+        margin: 0 auto;
+    }
+
+    .mob-100 {
+        width: 100% !important;
+    }
+
+    section#whychooseus .me-3 {
+        margin-right: 10px !important;
+    }
+
+    .box_chose {
+        max-width: 270px;
+    }
+
+    .mob_size {
+        width: 40px;
+    }
+
+    .singleBoxArea {
+        max-width: 312px;
+        margin: 0 auto 25px auto;
+    }
+
+    section#testimonials h2.heading3 {
+        width: 344px;
+        margin: 0 auto;
+    }
+
+    section#registration .registerBtns,
+    section#featured .registerBtns {
+        width: 263px;
+        margin: 0 auto;
+    }
+
+    #registration h3 {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .sideBar .complate_profile h6 {
+        margin-left: 1px !important;
+        padding-right: 10px;
+    }
+
+    .open_sidebar.sidebarsignup {
+        padding: 0 15px 0px !important;
+    }
+
+    .sign-upnew {
+        display: none;
+    }
+
+    .signup_otp {
+        background: #C3E7E8;
+        min-height: inherit;
+        height: 100%;
+        max-height: 100%;
+    }
+
+    .signup_otp_style .otp-login-box {
+        padding: 0 !important;
+    }
+
+    .signup_otp_style h3 {
+        font-size: 20px !important;
+        line-height: 27px !important;
+        justify-content: center;
+    }
+
+    .signup_otp_style p {}
+
+    .signup_otp_style .otp-login-box input {
+        width: 44px !important;
+        height: 44px !important;
+        border: 0.5px solid #031313;
+        border-radius: 5px !important;
+    }
+
+
+
+    .signup_otp_style .confirm-paragraph p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .signup_otp_style .resend-sms-otp.px-4.mt-5 {
+        margin-top: 40px !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .signup_otp_style .resend-sms-otp.px-4.mt-5 {
+        margin-top: 40px !important;
+    }
+
+
+
+    .signup_otp_style .loginOtp-phone-btn {
+        background: #1FA7A8 !important;
+    }
+
+    .signup_otp_style .Otp-continue-btn {
+        margin: 0 auto !important;
+        min-width: 325px;
+    }
+
+    .signup_otp_style .Otp-continue-btn span.loginOtp-phone-chevron {
+        float: initial !important;
+        position: initial !important;
+        padding: 0 !important;
+        width: auto !important;
+        background: #1FA7A8 !important;
+    }
+
+    .signup_otp_style .Otp-continue-btn {
+        padding-top: 30px;
+        margin-left: 60px;
+        padding-bottom: 20px;
+    }
+
+    .signup_otp_style .Otp-continue-btn {
+        padding-top: 139px;
+    }
+
+    .signup_otp_style .OtpCounting button {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0;
+    }
+
+    .signup_otp_style {
+        margin: 0 auto;
+    }
+
+    .signupDetails .white-form h2 {
+
+        font-size: 13px !important;
+        line-height: 18px !important;
+    }
+
+    .signupDetails .specialityHeightFix {
+
+        border-radius: 5px !important;
+        padding: 10px;
+    }
+
+    .signupDetails .white-form .detail-form {
+
+        border-radius: 5px !important;
+
+    }
+
+    .signupDetails .p-4 {
+        padding: 1.5rem 18px !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .signupDetails .signup_otp_style {
+        margin: 0 auto;
+    }
+
+
+    .signupDetails .Otp-continue-btn {
+        width: 170px !important;
+        margin: 44px auto 0 auto !important;
+    }
+
+    .signupDetails .Otp-continue-btn span.signupDetails-phone-chevron {
+        display: none !important;
+    }
+
+    .signupDetails .Otp-continue-btn button.review-button {
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 22px;
+        border-radius: 10px;
+    }
+
+    .signupDetails div#demo-multiple-name {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 18px;
+        color: #959494;
+        padding: 0 0;
+    }
+
+    .signupDetails .details-select {
+        font-size: 13px;
+        border: 0.5px solid #959494 !important;
+        border-radius: 5px !important;
+        color: #959494;
+    }
+
+    .signupDetails p.termsParaa {
+        display: none;
+    }
+
+    .thankyou-time-booked {
+        font-size: 24px !important;
+        line-height: 33px !important;
+        margin-top: 22px !important;
+    }
+
+    .timeBookedSlot {
+        margin-bottom: 22px !important;
+        margin-top: 20px !important;
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+
+    .thankyouscreen .bookedAreaBooking .bg-black {
+        width: 100% !important;
+        margin: 1rem auto !important;
+    }
+
+    .para-application {
+        font-family: "Circular Std";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .pinkBookedColor {
+        font-weight: 700 !important;
+        font-size: 18px !important;
+        line-height: 25px !important;
+        height: 38px;
+        border-radius: 8px !important;
+    }
+
+
+
+    .bookedAreaBooking .card.mt-5 {
+        background: rgb(255 255 255 / 80%) !important;
+        margin-top: 29px !important;
+        border-radius: 12px;
+        border: 0px;
+        padding: 21px 16px !important;
+    }
+
+    .bookedAreaBooking .card h5 {
+        font-weight: 500 !important;
+        font-size: 18px !important;
+        line-height: 25px !important;
+    }
+
+    .bookedAreaBooking .card h6 {
+        font-weight: 450;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .borderstyle:nth-child(3):before {
+        bottom: -4px;
+    }
+
+
+    .mobile_style_thankyou {
+        padding: 33px 20px !important;
+    }
+
+    .mobile_style_thankyou img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .mobile_style_thankyou .thankyou-heading {
+        font-weight: 500;
+        font-size: 20px !important;
+        line-height: 27px !important;
+    }
+
+    .mobile_style_thankyou p.text-uppercase.para-application.my-4 {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 18px;
+        margin-bottom: 16px !important;
+        margin-top: 20px !important;
+    }
+
+    .mobile_style_thankyou .application-number {
+        font-size: 18px !important;
+        border-radius: 8px !important;
+        line-height: 38px;
+        height: 38px;
+    }
+
+    .mobile_style_thankyou .ContactText {
+        font-size: 13px !important;
+        line-height: 16px !important;
+    }
+
+    .mobile_style_thankyou p.saveText {
+        font-size: 13px !important;
+        line-height: 19px !important;
+    }
+
+    .select-availabilty-btn {
+        border-radius: 12px !important;
+        height: 48px !important;
+        line-height: 48px !important;
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:0px) and (max-width:360px) {
+
+    section#testimonials h2.heading3 {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .signup_otp_style .Otp-continue-btn {
+        max-width: 240px !important;
+        min-width: 240px !important;
+    }
+}

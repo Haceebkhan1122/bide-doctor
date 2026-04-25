@@ -1,0 +1,247 @@
+ ul.prescription_list {
+     padding: 0;
+     margin: 0;
+ }
+
+ li.list_header {
+     list-style: none;
+
+     ul {
+         padding: 0;
+         display: flex;
+
+         li {
+             list-style: none;
+             width: 14%;
+             font-weight: 600;
+             font-size: 13px;
+             line-height: 16px;
+             color: #078A8E;
+
+             @media (min-width:1301px) and (max-width:1500px) {
+                 font-size: 11px;
+                 line-height: 14px;
+
+             }
+         }
+     }
+
+
+ }
+
+
+ li.list_pres {
+     list-style: none;
+     border-bottom: 0.3px solid #7070703d;
+     padding: 10px 0;
+
+     ul {
+         padding: 0;
+         display: flex;
+
+         li {
+             list-style: none;
+             width: 14%;
+             font-size: 13px;
+             line-height: 16px;
+
+             @media (min-width:1301px) and (max-width:1500px) {
+                 font-size: 11px;
+
+             }
+
+             p {
+                 font-size: 13px;
+                 line-height: 16px;
+                 font-weight: 600;
+
+                 @media (min-width:1301px) and (max-width:1500px) {
+                     font-size: 11px;
+
+                 }
+             }
+
+             h6 {
+                 font-size: 13px;
+                 line-height: 19px;
+                 font-weight: 300;
+
+                 @media (min-width:1301px) and (max-width:1500px) {
+                     font-size: 11px;
+
+                 }
+             }
+
+         }
+     }
+
+
+ }
+
+ li.list_pres ul li:first-child {
+     font-size: 13px;
+
+     @media (min-width:1301px) and (max-width:1500px) {
+         font-size: 12px;
+
+     }
+ }
+
+ li.list_pres ul li:first-child,
+ li.list_header ul li:first-child {
+     width: 25%;
+
+ }
+
+ .prev_consultation .ant-table-tbody>tr>td {
+     border-bottom: 0px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .consultation_detail {
+     //  width: 410px;
+     margin-right: 0px;
+     display: flex;
+
+     /* width: 100%; */
+     th {
+         font-weight: 500;
+         font-size: 14px;
+         line-height: 25px;
+         color: #313131;
+         width: 33.333%;
+         /* margin-right: 15px; */
+         padding: 0 4px 0 13px;
+
+         @media (min-width:1301px) and (max-width:1500px) {
+             font-size: 13px;
+
+         }
+     }
+
+ }
+
+
+ .consultation_detai_listing {
+     display: flex;
+     background: rgba(208, 244, 245, 0.51);
+     border: 1px solid #078A8E;
+     border-radius: 10px;
+     /* padding: 10px 13px; */
+     //  width: 410px;
+
+     p {
+         width: 28.333%;
+         padding: 10px 0px;
+     }
+
+     .dr_name {
+         color: #078A8E;
+         font-weight: 600;
+         width: 43%;
+         padding: 10px 4px 10px 13px;
+     }
+
+     .reason_name {
+         text-decoration-line: underline;
+         color: #545554;
+     }
+
+ }
+
+
+ .consultation_detail th:first-child {
+     width: 38%;
+ }
+
+ .prev_consultation th.ant-table-cell {
+     background: #F5F5F5;
+     border-bottom: 0;
+     color: #313131;
+     padding: 8px 20px;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 25px;
+ }
+
+ .table_pt {
+     width: 100%;
+ }
+
+ .prev_consultation .ant-table-tbody tr td:first-child {
+     max-width: 450px;
+     width: 450px;
+
+     @media (min-width:1301px) and (max-width:1500px) {
+         max-width: 390px;
+         width: 390px;
+
+     }
+ }
+
+ .prev_consultation thead.ant-table-thead tr th.ant-table-cell:first-child {
+     max-width: 450px;
+     width: 450px;
+
+     @media (min-width:1301px) and (max-width:1500px) {
+         max-width: 390px;
+         width: 390px;
+
+     }
+ }
+
+ .view_more {
+     border-color: #29BCC1;
+     background: #29BCC1;
+     border-radius: 10px;
+     height: 48px;
+     line-height: 48px;
+     font-weight: 700;
+     font-size: 16px;
+     text-align: center;
+     letter-spacing: 0.02em;
+     color: #FFFFFF;
+     padding: 0 20px;
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+
+     @media (min-width:1301px) and (max-width:1500px) {
+         height: 44px;
+         line-height: 44px;
+         font-size: 13px;
+         padding: 0 10px;
+
+     }
+
+     img {
+         margin-right: 5px;
+     }
+
+ }
+
+ .view_more:hover {
+     border-color: #29BCC1 !important;
+     background: #29BCC1 !important;
+     color: #FFFFFF !important;
+ }

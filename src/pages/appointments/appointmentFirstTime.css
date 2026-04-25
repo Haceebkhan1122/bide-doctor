@@ -1,0 +1,2797 @@
+#prescribe_med .ant-select-single .ant-select-selector .ant-select-selection-placeholder,
+#prescription .ant-select-single .ant-select-selector .ant-select-selection-placeholder,
+.appointment_div_data .ant-select-single .ant-select-selector .ant-select-selection-placeholder,
+#prescribe_med .ant-select-single .ant-select-selector .ant-select-selection-item,
+#prescription .ant-select-single .ant-select-selector .ant-select-selection-item,
+.appointment_div_data .ant-select-single .ant-select-selector .ant-select-selection-item {
+  line-height:56px;    color: #959494!important;
+}
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input {
+  height: 56px;
+}
+.whenNotFixedVideo .containerHideScreen,
+.fixedVideoOnScroll .rtx_video_small_frame,
+.fixedVideoOnScroll .rtx_video_main .controls {
+  display: none;
+}
+
+.fixedVideoOnScroll .containerHideScreen {
+  display: block;
+}
+
+#vitals,
+#medical-history,
+#medical-records,
+#prescription,
+#prescribe_lab {
+  /* scroll-margin-top: 150px; */
+}
+
+.records-inline .rec {
+  cursor: pointer;
+}
+
+/* .fixedScreenHeading {
+  position: absolute;
+  bottom: 0;
+} */
+.fixedVideoOnScroll .rtx_video_player>div {
+  background-color: transparent !important;
+  border-radius: 12px;
+}
+
+.video_div .rtx_video_player>div {
+  border-radius: 12px;
+}
+
+.fixedVideoOnScroll .video_div {
+  position: absolute;
+  min-height: 170px;
+  right: -50px;
+  min-width: 300px;
+  border-radius: 10px;
+  top: 75px
+}
+
+.fixedVideoOnScroll .fixedScreenHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  padding: 0 7px;
+
+}
+
+.fixedScreenHeading h6.headingDescVsmall {
+  background: rgba(106, 106, 106, 0.8);
+  background-blend-mode: multiply;
+  border-radius: 4px;
+  padding: 3px 12px;
+  color: white;
+  margin-bottom: 0;
+  width: fit-content;
+}
+
+.withoutScrollFixed {
+  position: absolute;
+  bottom: 80px;
+  left: 20px;
+}
+
+
+.fixedScreenHeading h3.rem-time {
+  background: #19B3B5;
+  border-radius: 4px;
+  padding: 2px 12px;
+  color: white;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.topNameDoctorNow {
+  position: absolute;
+  right: 190px;
+  top: 125px;
+  background: rgba(106, 106, 106, 0.8);
+  background-blend-mode: multiply;
+  border-radius: 4px;
+  padding: 3px 12px;
+  color: white;
+  margin-bottom: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  z-index: 19;
+  z-index: 19;
+}
+
+.video_div.position-relative .rtx_video_main .controls {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+  padding: 15px 0;
+}
+
+.appointment_first #vitals tr td:nth-child(2n-1) {
+  text-align: center;
+  font-size: 18px;
+}
+
+.lab-test-table .med-test-type { padding-left: 40px!important;
+}
+
+.fonfamily{
+  color: #313131 !important;
+  font-family: "Circular Std";
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 22.77px;
+  text-align: left;
+}
+
+.instant-feedback-table .table-striped>tbody>tr:nth-of-type(odd)>* {
+  --bs-table-accent-bg: transparent !important;
+}
+
+/* -------------------------------screen fixed top video-------------------- */
+.fixedSameVideoTop.col-md-8 {
+  position: relative;
+  width: 350px;
+}
+
+.fixedSameVideoTop .rtx_video_player {
+  position: fixed;
+  max-height: 200px;
+  right: 30px;
+  min-width: 300px;
+  border-radius: 10px;
+  top: 123px;
+  z-index: 99;
+  width: 350px;
+  padding: 0;
+}
+
+.fixedSameVideoTop .video_div {
+  min-height: auto;
+}
+
+.fixedSameVideoTop .controls,
+.onlyForFixedRemainingTime,
+.fixedSameVideoTop .topNameDoctorNow {
+  display: none;
+}
+
+.fixedSameVideoTop .onlyForFixedRemainingTime {
+  display: flex;
+  align-items: center;
+}
+
+.fixedSameVideoTop .withoutScrollFixed {
+  z-index: 99;
+  position: fixed;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  bottom: 0;
+  left: auto;
+  padding: 0 25px;
+  top: 115px;
+  right: 10px;
+  width: 390px;
+  max-height: 200px;
+
+}
+
+
+
+
+.fixedSameVideoTop .onlyForFixedRemainingTime h3.rem-time {
+  background: #19B3B5;
+  border-radius: 4px;
+  padding: 2px 12px;
+  color: white;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.white_color_div.patient-info-set.hk_white_video_right_area .instant_consult {
+  position: relative;
+}
+
+.white_color_div.patient-info-set.hk_white_video_right_area .instant_consult:after {
+  content: "";
+  position: absolute;
+  left: -20px;
+  width: 410px;
+  right: 0;
+  background-color: #cecbcb;
+  height: 1px;
+  top: 37px;
+}
+
+
+.patient_reason_visit h6:nth-child(3) {
+  margin-top: 10px;
+  line-break: anywhere;
+}
+
+.video_btn_cut_call img {
+  height: 40px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+p.call_status {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  background: rgba(15, 14, 14, 0.50); 
+  background-blend-mode: multiply;
+  border-radius: 50px;
+  height: 40px;
+  font-family: "Circular Std"; 
+  line-height: 40px;
+  padding: 0 13px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+span.circle.green {
+  background: #7CC14B;
+}
+
+span.circle.red {
+  background: #F00001;
+}
+
+span.circle {
+  width: 22px;
+  height: 22px;
+
+  display: inline-block;
+  border-radius: 50px;
+  margin-right: 6px;
+  border: 6px solid #fff;
+}
+
+p.call_status {
+  position: initial;
+  /* bottom: 20px; */
+  /* left: 10px; */
+  background: rgba(15, 14, 14, 0.50);
+
+  font-family: "Circular Std";
+
+  background-blend-mode: multiply;
+  border-radius: 50px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 13px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+span.circle.green {
+  background: #7CC14B;
+}
+
+span.circle.red {
+  background: #F00001;
+}
+
+span.circle {
+  width: 22px;
+  height: 22px;
+
+  display: inline-block;
+  border-radius: 50px;
+  margin-right: 6px;
+  border: 6px solid #fff;
+}
+
+.btn-status {
+  position: absolute;
+  bottom: 20px;
+  top: 30px;
+  left: 29px;
+}
+
+.emptttt img {
+  height: 104px !important;
+  width: auto !important;
+}
+
+/* .emptttt {
+  align-items: center;
+  background-color: #c3e7e8;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  border-radius: 10px;
+  width: 100%;
+} */
+
+.rtx_video_player.for_patient_area.mmm {
+  align-items: center;
+  background-color: #c3e7e8;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.emptttt_mini_frame {
+  background: #c3e7e8;
+  height: 145px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 250px;
+  border-radius: 8px;
+  z-index: 19;
+  box-shadow: 2px 2px 13px #a7a5a5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptttt_mini_frame img {
+  height: 40px !important;
+  width: auto !important;
+}
+
+span.hk_for_center {
+  position: relative;
+  left: -20px;
+}
+
+.appointment_div_data.noVitalsCurrently .ant-table-content th.ant-table-cell:last-child {
+  border: transparent;
+}
+
+.ant-modal.leaveConsultationModal.consultationAboutEnd .ant-modal-content {
+  width: 540px;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.ant-modal.leaveConsultationModal .ant-modal-content {
+  width: 540px;
+  margin: auto;
+  padding: 25px 0px 15px 0px;
+}
+
+
+.hk_go_for_next label.ant-checkbox-wrapper {
+  background-color: transparent;
+}
+
+
+.hk_go_for_next label.ant-checkbox-wrapper span.ant-checkbox span.ant-checkbox-inner {
+  border-radius: 5px;
+  border: 1px solid #D9D9D9;
+}
+
+.hk_go_for_next label.ant-checkbox-wrapper span {
+  font-family: 'Circular Std';
+  font-size: 18px;
+  color: #313131;
+  font-weight: 300;
+  top: 1px;
+  position: relative;
+}
+
+.hk_go_for_next label.ant-checkbox-wrapper span:hover {
+  background: transparent;
+}
+.spacing_grid1  .col-md-3,.columspaacing {
+  padding: 0 24px;
+}
+.instant_consult.hk_db_instant_toggle h4 {
+  /* font-weight: 400 !important; */
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 22px;
+}
+
+.instant_consult.hk_db_instant_toggle h4 span {
+  font-weight: 400;
+  font-size: 15px;
+  display: block;
+}
+
+.hk_instant_modal_open_ask_modal .ant-modal-footer {
+  display: none;
+}
+
+.prev_consultation table.table thead {
+  background: #F5F5F5;
+}
+
+.prev_consultation table.table thead th {
+  border-color: whitesmoke;
+}
+
+/* prescription modal  */
+.modal-to-print .prescriptionHeading {
+  color: #313131;
+  font-family: Nunito;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.modal-to-print .donwloadKey {
+  color: #313131;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.pdf-body.hk_bt_remove {
+  border-bottom: transparent !important;
+  border-radius: 10px 10px 0 0 !important;
+  padding-bottom: 30px !important;
+}
+
+.prescripModalSet.instantModalpopup .realCheck {
+  left: -7px;
+  top: 0;
+  z-index: 9;
+}
+
+.instantModalpopup .realCheck {
+  height: 17px !important;
+  left: 43px;
+  position: absolute;
+  top: 114px;
+  width: 17px !important;
+}
+
+.doctorImg {
+  height: 70px;
+  width: 70px;
+  position: relative;
+}
+
+.ant-modal.instantModalpopup .doctorImg.docProfileHeightSet img {
+  height: auto;
+}
+
+.ant-modal.instantModalpopup .doctorImg img {
+  height: 104px;
+  object-fit: cover;
+  width: 104px;
+}
+
+.instantModalpopup .logo_small {
+  height: 44px;
+}
+
+.for_bor_only_instant__f.border.rounded {
+  border-radius: 0 0 10px 10px !important;
+  border-top: transparent !important;
+  margin-top: -25px;
+}
+
+.instant-feedback-table thead tr:first-child th {
+  color: #313131  !important;
+  border-bottom: 0;
+  font-weight: 450!important;
+  font-size: 20px!important;
+  font-family: "Circular Std" !important;
+}
+
+.instant-feedback-table thead tr:first-child th {
+
+  color: #313131 !important;
+}
+
+.te-lef {
+  text-align: left !important;
+}
+
+.instant-feedback-table thead tr:first-child th {
+  border-bottom: 0;
+  color: #313131;
+  font-weight: 600;
+}
+.instant-feedback-table thead  tr.second-table-row {
+  text-align: center;
+} 
+
+.instant-feedback-table thead tr.second-table-row th th {
+  color: #078A8E!important;
+  text-align: center !important ; 
+  background: initial!important;
+  font-weight: 500; 
+ 
+  font-size: 18px!important;    min-width: 50px;font-family: "Circular Std";
+
+}
+.spacing_grid1.row,.spacing_grid.row {
+  margin-left: -24px;
+}
+.second_td_row  {  text-align: center;   }
+.second_td_row td{    min-width: 50px;}
+.prescription-textBox {
+  color: #313131;
+  font-family: Circular Std, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+  padding: 20px 30px 0;
+  width: 100%;
+}
+
+.instantModalpopup .sharedReportBox {
+  background-color: #fff;
+  padding-top: 25px;
+}
+
+.instantModalpopup .sharedReports {
+  color: #313131;
+  font-family: Nunito;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.anchorInstantModal a {
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.me-2 {
+  margin-right: 0.5rem !important;
+}
+
+.anchorInstantModal a {
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.removeInstantLink {
+  color: #0645ad;
+}
+
+.modal-to-print {}
+
+.ant-modal.instantModalpopup.prescripModalSet {
+  width: 850px !important;
+}
+
+.ant-modal.instantModalpopup.prescripModalSet .ant-modal-header {
+  padding: 14px;
+  border: 0;
+}
+
+.bg-gray,
+.bg-grayMobile:nth-child(2n) {
+  background-color: #f6f6f6;
+}
+
+.doctorImg {
+  height: 70px;
+  width: 70px;
+  position: relative;
+}
+
+.ant-modal.instantModalpopup .doctorImg img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.instant-feedback-table thead tr:first-child th {
+  background-color: #F5F5F5;
+  color: #078a8e;
+}
+
+.instant-feedback-table.prescription_table thead tr:nth-child(2) th {
+  background-color: #f6f6f6;
+  border-bottom: 0;
+  color: #313131;
+  font-weight: 600;
+}
+
+.for_bor_only_instant__f thead tr:last-child th {
+  background: #f6f6f6;
+}
+
+.instant-feedback-table thead tr th {
+  font-size: 13px;
+}
+
+.bg-change-tdd:before {
+  background-color: #eafafb !important;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 25px;
+  left: 50%;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  width: 82px;
+  z-index: -1;
+  transform: translateX(-50%);
+}
+
+.bg-change-tdd {
+  left: -10px;
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+  position: relative;
+}
+
+.instant-feedback-table .withMeal,
+.table .instant-feedback-table {
+  color: #313131;
+  font-family: Circular Std;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 18px;
+}
+
+.instant-feedback-table td,
+.instant-feedback-table th {
+  padding: 10px 16px !important;
+}
+
+.lab-test-table .labTestName {
+  color: #313131;
+  font-family: Circular Std, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+.bg-change-tdd:before {
+  background-color: #eafafb !important;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 25px;
+  left: 50%;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  width: 82px;
+  z-index: -1;
+  transform: translateX(-50%);
+}
+
+.bg-change-tdd {
+  left: -10px;
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+  position: relative;
+}
+
+
+
+
+
+
+.instant-feedback-table .withMeal,
+.table .instant-feedback-table {
+  color: #313131;
+  font-family: Circular Std;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 18px;
+}
+
+.instant-feedback-table td,
+.instant-feedback-table th {
+  padding: 10px 14px 10px 24px !important;
+}
+
+.lab-test-table .labTestName {
+  color: #313131;
+  font-family: Circular Std, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+.ant-modal.instantModalpopup table.border_bottom_rem tbody tr {
+  border-bottom: 1px solid #ced9e2 !important;
+}
+
+
+table.table.instant-feedback-table.lab-test-table.border_bottom_rem.table.table-striped tbody {
+  width: 100%;
+  display: contents;
+}
+
+.for_bor_only_instant__f tbody tr td {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.for_bor_only_instant__f tbody tr td:first-child {
+  font-weight: 700 !important;
+}
+
+.ant-modal.instantModalpopup.prescripModalSet .ant-modal-footer {
+  display: none;
+}
+
+.ant-modal.instantModalpopup.prescripModalSet .ant-modal-content {
+  border-radius: 20px;
+}
+
+.ant-modal.instantModalpopup.prescripModalSet .ant-modal-header {
+
+  background: #fff0;
+}
+
+.instant-doc-name {
+  font-family: Nunito, sans-serif;
+  font-size: 1rem;
+}
+
+.view_more:active {
+  border-color: #29BCC1;
+  background: #29BCC1;
+  color: #fff;
+}
+
+.like_row_bg {
+  background-color: #F5F5F5;
+  padding: 10px 35px;
+}
+
+.like_row_bg .hk_align-by-align {
+  margin-right: 0px;
+  width: 177px;
+}
+
+
+.like_row_bg .hk_align-by-align h4 {
+  color: #313131;
+  font-size: 14px;
+  font-family: 'Circular Std';
+}
+
+
+.alignForRight {
+  position: absolute;
+  right: 0;
+  width: 130px !important;
+
+}
+
+.like_row_bg {
+  background-color: #F5F5F5;
+  padding: 10px 35px;
+}
+
+.leaveConsultationModal .hk_go_for_next span.ant-checkbox.ant-checkbox-checked span.ant-checkbox-inner {
+  background: #EF6286;
+  border-color: #EF6286 !important;
+}
+
+.like_row_bg .hk_align-by-align h4 {
+  color: #313131;
+  font-size: 15px;
+  font-family: 'Circular Std';
+}
+
+.acc_button_area a.nav-link {
+  border: 1px solid #078A8E !important;
+  padding: 15px 15px;
+}
+
+
+.acc_button_area a.nav-link .f-items_hk h6 {
+  font-size: 12px;
+  color: #545554;
+  font-family: 'Circular Std';
+  text-decoration: underline;
+}
+
+.hk_bg_cover a.nav-link.active {
+  background: rgba(208, 244, 245, 0.51) !important;
+
+}
+
+.prescripMobileAccor.hk_bg_cover a.nav-link {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 450;
+  border-radius: 0px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1.06965px solid #C0C0C0;
+
+}
+
+.prescripMobileAccor.hk_bg_cover a.nav-link.active {
+  background: transparent !important;
+  border-color: #EF6286;
+  border-radius: 10.6965px 10.6965px 0px 0px;
+}
+
+.prescripMobileAccor.hk_bg_cover a.nav-link.active h6 {
+  color: #EF6286;
+
+}
+
+
+.hk_bg_cover.nav.nav-pills .nav-item {
+  margin-top: 10px;
+  padding-left: 19px;
+  width: 100%;
+}
+
+h6.diff_color {
+  font-size: 14px !important;
+  color: #078A8E !important;
+  text-decoration: none;
+}
+
+.acc_button_area .tab-content {
+  background: #FAFAFA;
+  border: 0.5px solid #E3E3E3;
+  border-radius: 6px;
+  padding-bottom: 100px;
+  margin: 11px;
+}
+
+.acc_button_area .tab-content thead tr th {
+  font-size: 12px;
+  color: #078A8E;
+  padding-left: 15px;
+}
+
+.acc_button_area .tab-content thead {
+  background: #EBEBEB;
+  height: 37px;
+}
+
+.acc_button_area .tab-content tbody tr td {
+  font-size: 12px;
+  color: #313131;
+  font-family: 'Circular Std';
+  line-height: 16px;
+  padding-left: 15px;
+  border-bottom: 1px solid #c0b6b6;
+}
+
+.acc_button_area .tab-content tbody tr td:last-child {
+  border: none;
+}
+
+.acc_button_area .tab-content tbody tr td .hanlde_wrapper_schedule span {
+  font-weight: 300;
+}
+
+.acc_button_area .tab-content tbody tr td .hanlde_wrapper_schedule span {
+  font-weight: 300;
+}
+
+
+.acc_button_area .tab-content tbody tr td button.simple_btn_small {
+  margin-top: 0 !important;
+  font-size: 14px !important;
+  text-transform: capitalize;
+  position: relative;
+  right: 15px;
+}
+
+.acc_button_area .tab-content tbody tr td button.simple_btn_small img {
+  margin-right: 5px;
+  height: 23px;
+  width: auto;
+}
+
+span.dr_name_header_date {
+  color: #19B3B5;
+}
+
+.acc_button_area .tab-content tbody tr:last-child td {
+  border-bottom: none;
+}
+
+table.in_written tbody td:first-child {
+  width: 80%;
+}
+
+table.in_written thead {
+  height: 37px !important;
+}
+
+table.in_written td {
+  padding-top: 10px;
+  font-size: 14px !important;
+  line-height: 20px !important;
+}
+
+table.in_table_view {
+  width: 100%;
+}
+
+.med_schedule_hk .hanlde_wrapper_schedule span {
+  display: block;
+}
+
+.med_schedule_hk .hanlde_wrapper_schedule {
+  /* margin-right: 30px; */
+  width: 25%;
+}
+
+table.in_written {
+  width: 100%;
+}
+
+p.no_pres_prev_cons {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  font-family: 'Circular Std';
+}
+
+.acc_button_area button.simple_btn_small:hover {
+  background-color: #29bcc1 !important;
+  color: white !important;
+  border: none !important;
+}
+
+
+
+
+/* responsive HK Doctor Module */
+main.forall_mobile_section {
+  background: #E1F3F4;
+  padding: 15px;
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.for_accordion_style .accordion-item {
+  background: white;
+  border-radius: 10px;
+}
+
+.for_accordion_style button.accordion-button {
+  background-color: transparent;
+  padding-top: 0;
+  padding-bottom: 0;
+  box-shadow: none;
+  color: black;
+}
+
+.for_accordion_style .accordion-item h2.accordion-header button.accordion-button:focus {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+.for_accordion_style .accordion-item h2.accordion-header {
+  line-height: 45px;
+}
+
+.for_accordion_style .accordion-item h2.accordion-header svg {
+  margin-right: 10px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23YOUR_HEX_CODE'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.no_data_mob_acc_state {
+  color: #959494;
+  font-family: 'Circular Std';
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.data_true.accordion-item .accordion-collapse.collapse.show {
+  border-top: 1px solid #ccc;
+}
+
+.for_accordion_style button.accordion-button svg.svg-inline--fa.fa-check-circle {
+  color: #7CC14B;
+  font-size: 18px;
+}
+
+.for_accordion_style button.accordion-button svg.svg-inline--fa.fa-circle {
+  color: #EEEEEE;
+  font-size: 18px;
+}
+
+.for_accordion_style .accordion-item .accordion-body h5 {
+  font-size: 14px;
+  font-family: 'Circular Std';
+  margin-bottom: 5px;
+}
+
+.for_accordion_style .accordion-item .accordion-body p {
+  font-family: 'Circular Std';
+  font-weight: 300;
+  font-size: 13px;
+}
+
+
+section.vitals_mobile .vitals_area_mob h4 span {
+  color: #078A8E;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+section.vitals_mobile .vitals_area_mob h4 {
+  font-family: 'Circular Std';
+  font-weight: 300;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.vitals_mobile .vitals_area_mob h4 img {
+  margin-left: 5px;
+}
+
+main.forall_mobile_section .accordion {
+  margin-bottom: 10px;
+}
+
+section.medical_records_mobile .accordion-body {
+  padding: 0;
+  padding-bottom: 15px;
+}
+
+section.medical_records_mobile .accordion-body thead {
+  background: #F6F6F6;
+}
+
+section.medical_records_mobile .accordion-body thead th {
+  padding: 8px 20px;
+  color: #313131;
+  font-size: 12px;
+}
+
+section.medical_records_mobile .accordion-body tbody td h3.file-name {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Circular Std';
+}
+
+section.medical_records_mobile .accordion-body tbody td svg {
+  margin-right: 7px;
+}
+
+section.medical_records_mobile .accordion-body tbody td .d-flex p {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+section.medical_records_mobile .accordion-body table.med-record_data {
+  width: 100%;
+}
+
+section.medical_records_mobile .accordion-body thead th:last-child {
+  padding-left: 30px;
+}
+
+section.medical_records_mobile .accordion-body tbody td:last-child {
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+
+.texttt {
+  color: #313131 !important;
+font-family: "Circular Std" !important;
+font-size: 18px !important;
+font-style: normal;
+font-weight: 450 !important;
+line-height: normal;
+text-align: left !important;
+padding-left: 12px !important;
+}
+
+.texttt-grrr {
+  color: #078A8E;
+text-align: center;
+font-family: "Circular Std";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+section.medical_records_mobile .accordion-body tbody td:first-child {
+  position: relative;
+  top: -12px;
+  font-size: 12px;
+  font-family: 'Circular Std';
+  font-weight: 400;
+  left: 20px;
+}
+
+table.med-record_data tbody {
+  position: relative;
+  top: 20px;
+}
+
+.reportViewer img {
+  width: 100%;
+}
+
+section.medical_history_mobile .column_flex {
+  display: block;
+}
+
+section.medical_history_mobile .column_flex .ant-form-item-control-input-content {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+}
+
+section.medical_history_mobile .ant-form-item-control-input-content {
+  background: #FFFFFF;
+  border: 0.3px solid #d9d9d9;
+  border-radius: 8px;
+}
+
+.medical_history_mobile .ant-col.ant-form-item-label {
+  padding-left: 0px;
+}
+
+.medical_history_mobile .cancelMedCard {}
+
+.medical_history_mobile .cancelMedCard .pink_div {
+  flex-wrap: nowrap;
+  padding: 10px !important;
+}
+
+.medical_history_mobile .cancelMedCard .pink_div a {
+  order: 2;
+}
+
+.medical_history_mobile .cancelMedCard .pink_div h5 {
+  font-size: 11px;
+  line-height: 17px;
+}
+
+.medical_history_mobile .cancelMedCard .pink_div a img {
+  width: 10px;
+}
+
+textarea#cosultation_note {
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.medical_history_mobile input {
+  height: 100% !important;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18px;
+  color: #959494;
+}
+
+.medical_history_mobile span.ant-select-selection-placeholder {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18px;
+  color: #959494;
+}
+
+section.medical_history_mobile .cancelMedCard .pink_div {
+  background-color: #29BCC1;
+  border-radius: 7px;
+  padding: 10px 18px 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+section.medical_history_mobile .cancelMedCard {
+  margin-right: 10px;
+  flex: 0 0 auto;
+}
+
+section.medical_history_mobile .cancelMedCard .pink_div h5.heading_desc_small {
+  margin-bottom: 0;
+}
+
+/* -----------------prescription css mobile---------------- */
+.paddingContentBody {
+  padding: 1rem 1.25rem;
+}
+
+.video_div.currentViewState .rtx_video_small_frame {
+  display: none;
+}
+
+.video_div.currentViewState .rtx_video_player.for_patient_area {
+  width: 220px;
+  height: 120px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.video_div.currentViewState .controls .connection_controller {
+  display: none;
+}
+
+.video_div.currentViewState .rtx_video_player.for_patient_area div {
+  border-radius: 10px;
+}
+
+.video_div.currentViewState .controls .on.video_btn:nth-child(2) {
+  display: none;
+}
+
+.video_div.currentViewState .emptttt img {
+  height: 30px !important;
+}
+
+.video_div.currentViewState .emptttt {
+  width: 220px;
+  height: 120px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  border-radius: 10px;
+}
+
+.video_div.currentViewState .rtx_video_main {
+  height: 140px;
+}
+
+.video_div.currentViewState .rtx_video_main .on.video_btn:first-child {
+  position: absolute;
+  right: 18px;
+  top: -25px;
+}
+
+.video_div.currentViewState .rtx_video_main .video_btn.off:first-child {
+  background-color: #ff0000;
+  position: absolute;
+  right: 18px;
+  top: -25px;
+}
+
+.video_div.currentViewState .rtx_video_main .controls {
+  background-color: transparent;
+}
+
+.video_div.currentViewState .fixedScreenHeading.withoutScrollFixed h6.headingDescVsmall {
+  position: relative;
+  left: 145px;
+  top: 60px;
+  font-size: 10px;
+}
+
+.video_div.currentViewState .fixedScreenHeading.withoutScrollFixed h6.headingDescVsmall {
+  position: relative;
+  left: 145px;
+  top: 60px;
+  font-size: 10px;
+}
+
+button.image_cross {
+  position: absolute;
+  right: 10px;
+  top: 3px;
+}
+
+.video_div.currentViewState {
+  min-height: 140px;
+}
+
+.medicine_accordian.lab_test_prescription_customr.labTestMobileModal.accordion .accordion-body .subs_table_inner_mobile h5,
+.medicine_accordian.lab_test_prescription_customr.labTestMobileModal.accordion .accordion-body .subs_table_inner_mobile {
+  left: 0 !important;
+  top: 0 !important;
+}
+
+.medicine_accordian.lab_test_prescription_customr.labTestMobileModal.accordion .subs_table_inner_mobile .desc-prescription {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.medicine_accordian.lab_test_prescription_customr.labTestMobileModal.accordion .desc-prescription h5 {
+  font-family: 'Circular Std';
+  font-weight: 450;
+  font-size: 11.008px;
+  line-height: 14px;
+  color: #313131;
+  padding: 8px 14px;
+}
+
+.medicine_accordian.lab_test_prescription_customr.labTestMobileModal.accordion .subs_table_inner_mobile {
+  width: 100%;
+}
+
+.medicine_accordian button.accordion-button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+a.view_more1.showAllList {
+  filter: grayscale(1);
+}
+
+.appointment_first .tab_data .white_color_div textarea.textArea-w.error {
+  border: 1px solid #BC0001 !important;
+}
+
+.acc_button_area .f-items_hk {
+  width: auto;
+}
+
+.ant-input-number-focused {
+  box-shadow: 0 0 0 0px rgba(24, 144, 255, 0.2);
+  border-color: #d9d9d9 !important;
+}
+
+div#prescription .ant-input-number.ant-input-number-in-form-item:hover,
+div#prescription .ant-input-number.ant-input-number-in-form-item:focus {
+  border-color: #d9d9d9 !important;
+}
+.prescription1 .ant-input-number.ant-input-number-in-form-item:hover,
+.prescription1 .ant-input-number.ant-input-number-in-form-item:focus {
+  border-color: #d9d9d9 !important;
+}
+
+
+.newPrescriptionChecks .ant-input-number-handler-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 22px;
+  height: 100%;
+  background: #fff;
+  border-radius: 0 2px 2px 0;
+  opacity: 1;
+  transition: opacity 0.24s linear 0.1s;
+  border-radius: 0 10px 10px 0;
+}
+
+
+.texittt_remarks {
+  border-radius: 10px !important;
+  border: 0.3px solid #404040 !important;
+  background: #FFF !important;
+  width: 1441px;
+  height: 270px;
+  font-family: "Circular Std";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding: 12px;
+  outline: none;
+}
+
+.vvissl {
+  visibility: hidden;
+}
+
+.markComp {
+  white-space: nowrap;
+}
+
+.texittt_remarks:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+
+.texittt_remarks::placeholder {
+font-family: "Circular Std";
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+
+.sleeeeek .ant-select-arrow {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='8' viewBox='0 0 14 8' fill='none'%3E%3Cpath d='M1 1L6.85858 6.85858C6.93668 6.93668 7.06332 6.93668 7.14142 6.85858L13 1' stroke='%23383838' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E") !important;
+  background-position: right center;
+  background-size: 12px 6px;
+  padding-right: 30px; 
+  background-repeat: no-repeat;
+}
+
+.medicine_form01 .ant-input-number {
+  width: 69px;
+}
+
+.medicine_form01 .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler-up {
+  background-image: url("data:image/svg+xml,%0A%3Csvg width='11' height='10' viewBox='0 0 11 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.57297 0.998047L10.3647 9.99805H0.78125L5.57297 0.998047Z' fill='%23404040'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* transform: rotate(90deg); */
+}
+
+.medicine_form01 .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler-down {
+  background-image: url("data:image/svg+xml,%0A%3Csvg width='11' height='10' viewBox='0 0 11 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.57297 9.00391L10.3647 0.00390625H0.78125L5.57297 9.00391Z' fill='%23404040'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.followUp {
+  color: #313131;
+  font-family: "Circular Std";
+  font-size: 18px!important;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+.ant-input-number-focused {
+  box-shadow: 0 0 0 0px rgba(24, 144, 255, 0.2);
+  border-color: #d9d9d9 !important;
+}
+
+div#prescription .ant-input-number.ant-input-number-in-form-item:hover,
+div#prescription .ant-input-number.ant-input-number-in-form-item:focus {
+  border-color: #d9d9d9 !important;
+}
+
+.prescription1 .ant-input-number.ant-input-number-in-form-item:hover,
+.prescription1 .ant-input-number.ant-input-number-in-form-item:focus {
+  border-color: #d9d9d9 !important;
+}
+
+.newPrescriptionChecks .ant-input-number-handler-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 22px;
+  height: 100%;
+  background: #fff;
+  border-radius: 0 2px 2px 0;
+  opacity: 1;
+  transition: opacity 0.24s linear 0.1s;
+  border-radius: 0 10px 10px 0;
+}
+
+@media (min-width:0px) and (max-width:767px) {
+  .rtx_video_container .rtx_video_player {
+
+    height: 280px !important;
+  }
+
+  .connection_controller {
+    top: 7px !important;
+  }
+
+  .appointment_first .video_div {
+    height: 100%;
+    min-height: 310px !important;
+  }
+
+  .controls {
+    height: 40px !important;
+    bottom: 0 !important;
+  }
+
+  .video_cons_hk .controls .video_btn {
+    width: 29px !important;
+    height: 29px !important;
+  }
+
+  .controls {
+    padding-right: 80px !important;
+    border-radius: 0;
+  }
+
+  .doctor_frame {
+    height: 80px !important;
+    width: 80px !important;
+    top: 13px !important;
+    right: 20px !important;
+  }
+
+  p.call_status {
+    height: 24px;
+    line-height: 40px;
+    padding: 0 10px;
+    font-size: 9px;
+  }
+
+  span.circle {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    border: 4px solid #fff;
+  }
+
+  .btn-status {
+    bottom: 20px;
+    top: 14px;
+    left: 16px;
+  }
+
+  div#mobile_vid h6.headingDescVsmall {
+    top: 30px !important;
+    left: 0px;
+    font-size: 11px;
+  }
+
+  .appointment_first.cover_space .mt-5.container-fluid {
+    margin-top: 0rem !important;
+  }
+
+  .rtx_video_container .rtx_video_player div {
+    border-radius: 0 !important;
+  }
+
+  /* .controls.videos_icons .video_btn {
+    position: initial;
+    transform: initial;
+  }
+
+  .appointment_first .bottom_btn {
+    z-index: 99;
+    background: #E1F3F4 !important;
+  }
+
+  .appointment_first .bottom_btn .submit-btn-completed span.add-record-chevron {
+    padding: 0 !important;
+    width: initial;
+    background-color: #29BCC1 !important;
+    position: initial;
+  }
+
+  .appointment_first .bottom_btn .submit-btn-completed span.hk_for_center {
+    left: 0;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+  .newPrescriptionChecks .ant-input-number {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 12px !important;
+    padding: 0 7px;
+  }
+
+  .newPrescriptionChecks .ant-input-number input {
+    border: 0 !important;
+    margin: 0;
+    height: 42px;
+    line-height: 42px;
+  }
+
+  .newPrescriptionChecks .ant-input-number:hover {
+    border: 1px solid #d9d9d9;
+  }
+
+  .newPrescriptionChecks .ant-input-number input:focus {}
+
+  .newPrescriptionChecks .ant-input-number:focus {
+    border-color: #d9d9d9;
+    box-shadow: 0 0 0 0px rgba(24, 144, 255, 0.2);
+    border-right-width: 1px;
+    outline: 0;
+  }
+
+  .ant-input-number-focused {
+    border-color: #d9d9d9 !important;
+    box-shadow: 0 0 0 0px rgba(24, 144, 255, 0.2);
+  }
+
+
+
+
+
+
+
+
+
+
+
+  span.hint {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #949292;
+    font-family: 'Circular Std';
+    padding-top: 30px;
+  }
+
+  section.labTests .simple_btn_small {
+    color: #fff;
+    border: 1px solid #29BCC1;
+  }
+
+  .button_container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  .button_container .flex_start {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    flex-wrap: nowrap;
+    padding: 0px 0 10px 0;
+  }
+
+  .appointment_div_data .ant-select:not(.ant-select-customize-input) .ant-select-selector,
+  .appointment_div_data .ant-select.ant-select-in-form-item.ant-select-status-success.c_select.ant-select-single.ant-select-show-arrow {
+    border-radius: 8px !important;
+  }
+
+  .position-initial {
+    position: initial;
+  }
+
+  span.duratiion_med img {
+    width: 17px;
+    height: 17px;
+  }
+
+  .prescription_box001 .medicine_instuction ul {
+    width: 100%;
+  }
+
+
+  section.prescriptions_mobile.for_accordion_style {}
+
+
+  section.prescriptions_mobile.for_accordion_style textarea.textArea-w:focus-visible {
+    outline: 0;
+  }
+
+  span.duratiion_med img {
+    width: 17px;
+    height: 17px;
+  }
+
+  .prescription_box001 ul {
+    width: 100%;
+  }
+
+  .prescription_box001 .medicine_instuction {
+    flex-wrap: wrap;
+  }
+
+  .prescription_box001 .medicine_instuction ul li {
+    width: 25%;
+    margin-right: 20px;
+  }
+
+  .prescription_box001 .medicine_instuction ul li p {
+    font-size: 12.5px !important;
+    margin-bottom: 7px;
+  }
+
+  .prescription_box001 .medicine_instuction ul li .box_blue {
+    padding: 2px;
+  }
+
+  .prescription_box001 .medicine_instuction ul li .box_blue h6 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .prescription_box001 h6.instuction {
+    font-size: 12.5px;
+    width: 50%;
+    margin-top: 10px;
+  }
+
+  .prescription_box001 h6.instuction span {
+    font-weight: 300;
+    display: inline-block;
+  }
+
+  .prescription_box001 .medicine_instuction ul {
+    width: 100%;
+  }
+
+
+  .prescription_box001 button.accordion-button {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  section.prescriptions_mobile.for_accordion_style textarea.textArea-w {
+    resize: none;
+    padding: 10px 15px 0;
+    border: 1px solid #d0d0d0 !important;
+    border-radius: 12px;
+    width: 100%;
+    height: 100px;
+  }
+
+  .pat_info_mob .headingDescVsmall {
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 15px;
+    display: inline-block;
+    text-transform: capitalize;
+    color: #313131;
+    margin-right: 3px;
+    border-right: 1px solid #313131;
+    padding-right: 3px;
+    line-height: 10px;
+  }
+
+  .pat_info_mob .headingDescVsmall:last-child {
+    margin-right: 0px;
+    border-right: 0px solid #ccc;
+    padding-right: 0px;
+  }
+
+  .mobile_time01 h3.rem-time {
+    font-size: 15px;
+    line-height: 19px;
+    color: #EF6286;
+    font-weight: 450;
+    padding-right: 4px;
+
+  }
+
+  .mobile_time01 h6 {
+    color: #EF6286;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 450;
+    padding-right: 4px;
+
+  }
+
+  .mobile_time01 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .mobile_time01.pt-mob h6.headingWithSpaceLarge {
+    color: #313131;
+  }
+
+  .mobile_time01.pt-mob h3 {
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    color: #EF6286;
+  }
+
+  div#mobile_vid {
+    padding: 0;
+  }
+
+  .emptttt {
+    border-radius: 0px;
+  }
+
+  .rtx_video_main .rtx_video_container .rtx_video_small_frame {
+    height: 80px !important;
+  }
+
+  .connection_controller {
+    position: initial;
+    margin-left: 17px;
+    display: flex;
+  }
+
+  .rtx_video_main .controls .video_btn {
+    height: 30px;
+    width: 30px;
+    font-size: 17px;
+  }
+
+  .video_div.position-relative .rtx_video_main .controls {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 10px 0;
+  }
+
+  .video_div .rtx_video_player>div {
+    border-radius: 0;
+  }
+
+  .connection {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+    z-index: 9;
+    background: rgba(15, 14, 14, 0.5);
+    background-blend-mode: multiply;
+    border-radius: 30.0005px;
+    height: 24px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 9.60015px;
+    line-height: 20px;
+    /* or 204% */
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 0 13px;
+  }
+
+  .connection .green {
+    background: #7CC14B;
+  }
+
+  .connection span.cicle {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 3px;
+    border: 4px solid rgba(255, 255, 255, 0.8);
+  }
+
+  .instant_consult .heading_desc_small {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .vitals_area_mob .vital_rate {
+    width: 33.333%;
+    text-align: center;
+    margin-bottom: 18px;
+  }
+
+  section.vitals_mobile .vital_rate h4 {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    color: #078A8E;
+    margin-bottom: 3px;
+  }
+
+
+  section.vitals_mobile .vital_rate p {
+
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    color: #313131;
+  }
+
+  .score {
+    border-radius: 3px;
+    font-weight: 450;
+    font-size: 10px;
+    line-height: 13px;
+    width: 57px;
+    display: inline-block;
+  }
+
+  .score_measure_high {
+    background: #F34E30;
+    color: #fff;
+  }
+
+  .score_measure {
+    color: #2A87FE;
+    border: 1px solid;
+  }
+
+  span.scor {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .vitals_area_mob .vital_rate:nth-child(4),
+  .vitals_area_mob .vital_rate:nth-child(5),
+  .vitals_area_mob .vital_rate:nth-child(6) {
+    margin: 0;
+  }
+
+  .vital_header span {
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 21px;
+    /* or 174% */
+    display: flex;
+    align-items: center;
+    color: #313131;
+    position: absolute;
+    right: 50px;
+  }
+
+  .vital_header span i {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    /* or 174% */
+    display: flex;
+    align-items: center;
+    color: #848484;
+    font-style: normal;
+    padding-left: 4px;
+  }
+
+  .vital_header .accordion-button {
+    position: relative;
+  }
+
+  .video_div.position-relative.noPadding .topNameDoctorNow {
+    display: none;
+  }
+
+  .connection_controller h5.your_connn {
+
+    font-size: 11px;
+    width: 75px;
+  }
+
+  .for_accordion_style {
+    margin-bottom: 14px;
+  }
+
+
+  .labTests .ant-select-selector {
+    border: 1px solid #d0d0d0 !important;
+    border-radius: 8px !important;
+    font-size: 13px;
+    border-color: #d0d0d0 !important;
+  }
+
+  .labTests .ant-select-selector input {
+    height: 100% !important;
+    line-height: 40px !important;
+    font-size: 13px;
+  }
+
+  .labTests span.ant-select-selection-placeholder {
+    line-height: 40px !important;
+  }
+
+  .labMobile_form {
+    padding-top: 0px !important;
+  }
+
+  .labMobile_form .labelText {
+    display: none;
+  }
+
+  .lab_mobile_title p.labelText.fs-14 {
+    padding: 0;
+  }
+
+  .labTests span.ant-select-arrow {
+    background: no-repeat;
+    background-size: 13px;
+    background-position: center;
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='12' height='7' viewBox='0 0 12 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5.85269 5.85269C5.93405 5.93405 6.06595 5.93405 6.14731 5.85269L11 1' stroke='%23313131' stroke-width='1.5625' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+  }
+
+  .labTests span.ant-select-arrow svg {
+    opacity: 0;
+  }
+
+  section.labTests .simple_btn_small {
+    width: 100%;
+    display: block;
+    background: #29BCC1;
+    min-height: 44px !important;
+    padding: 0;
+    font-weight: 800;
+    font-size: 16.6667px;
+    line-height: 23px;
+    border-radius: 6px;
+    margin-top: 6px;
+  }
+
+  .for_accordion_style .accordion-body {
+    border-top: 0.2px solid #c0c0c04a;
+  }
+
+  .labTests .ant-select-selection-item {
+    line-height: 40px !important;
+  }
+
+  .labTests .ant-row.ant-form-item {
+    margin: 0 !important;
+  }
+
+
+  .lab_test_results .prescriptionBox {
+    margin-bottom: 0px;
+    height: auto;
+  }
+
+  .lab_test_results .prescriptionBox h4 {
+    margin: 0;
+    padding: 9px 1.25rem;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .labTests .accordion-body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .labTests .accordion-body .gap_div {
+    padding: 0rem 1.25rem;
+  }
+
+  .lab_test_mobile li {
+    border-bottom: 0.2px solid #C0C0C0;
+    padding: 14px 1.25rem;
+  }
+
+  .lab_test_mobile li:last-child {
+    border-bottom: 0px solid #C0C0C0;
+  }
+
+  .lab_test_mobile li h6 {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #313131;
+  }
+
+  .lab_test_mobile li h6 span {
+    font-weight: 450;
+    display: block;
+  }
+
+  ul.lab_test_mobile {
+    margin: 0;
+  }
+
+  .prev_consult_mob {
+    padding: 0rem 0rem 1rem 0rem;
+  }
+
+  .prev_consult_mob ul {
+    list-style: none;
+    padding: 0;
+    border-bottom: 0.5px solid #DBDBDB;
+    margin: 0;
+    padding: 0rem 1.25rem;
+    display: flex;
+    margin-bottom: 3px;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  .view_more1 {
+    border-color: #29BCC1;
+    background: #29BCC1;
+    border-radius: 5px;
+    height: 27px;
+    line-height: 27px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    padding: 0 20px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-top: 10px;
+  }
+
+  .pd-10 {
+    padding: 0rem 1.25rem;
+  }
+
+  ul.header_prev_consult {
+    background: #F6F6F6;
+    display: flex;
+    padding: 0rem 1.25rem;
+  }
+
+  ul.header_prev_consult li {
+    width: 33.333%;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: 'Circular Std';
+    color: #313131;
+    padding: 8px 0;
+  }
+
+  ul.result_prev_consult li {
+    width: 33.333%;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 17px;
+    font-family: 'Circular Std';
+    color: #545554;
+    padding: 8px 0;
+  }
+
+  ul.result_prev_consult li span {
+    font-weight: 300;
+  }
+
+  a.view_presc {
+    text-decoration-line: underline;
+    color: #545554;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .view_presc {
+    text-decoration-line: underline;
+    color: #545554;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .labTests .ant-form-item-control-input-content .flex_end {
+    display: block;
+  }
+
+  .pd-10 {
+    padding: 0rem 0.7rem;
+  }
+
+  .view_more {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    height: 27px;
+    line-height: 27px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .batient_bio h6 {
+    padding-top: 8px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12.8427px;
+    line-height: 16px;
+    color: #313131;
+  }
+
+  .batient_bio h6 span {
+    font-weight: 500;
+  }
+
+  .labTests .ant-form-item-control-input-content .flex_end {
+    display: block;
+  }
+
+  .box_dr .box_dr_img {
+    width: 88.06px;
+    height: 88.06px;
+    position: relative;
+    margin-right: 10px;
+  }
+
+
+  .dr_image_icon {
+    position: absolute;
+    left: -6px;
+    top: -7px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .box_dr .box_dr_img .dr_image {
+    border-radius: 14px;
+  }
+
+  .prev_consult_mobile_view {
+    padding: 14px;
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  .box_dr {
+    margin-top: 20px;
+  }
+
+  p.drName {
+    font-weight: 600;
+    font-size: 13.76px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #313131;
+    margin-bottom: 4px;
+  }
+
+  .box_dr h6 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11.9253px;
+    line-height: 17px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #313131;
+  }
+
+
+  .medicine_accordian button.accordion-button {
+    font-weight: 450;
+    font-size: 11.008px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #313131;
+    padding: 8px 14px;
+  }
+
+  .medicine_accordian button.accordion-button .duratiion_med {
+    position: absolute;
+    right: 40px;
+  }
+
+  .medicine_accordian {
+    margin-top: 15px;
+  }
+
+  .medicine_accordian .accordion-body {
+    padding: 10px 10px;
+  }
+
+  .medicine_accordian .accordion-item {
+    background-color: #fff;
+    border: 1px solid #F6F6F6;
+    margin-bottom: 10px
+  }
+
+  .medicine_accordian h2.accordion-header {
+    background: #F6F6F6;
+    border-radius: 5.504px 5.504px 0px 0px;
+  }
+
+  .medicine_instuction ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+  .medicine_instuction ul li {
+    margin-right: 4px;
+  }
+
+  .medicine_instuction ul li p {
+    font-style: normal;
+    font-weight: 450 !important;
+    font-size: 10.0907px !important;
+    line-height: 13px;
+    /* identical to box height */
+    color: #313131;
+    text-align: center;
+  }
+
+  .medicine_instuction ul li .box_blue {
+    background: #EAFAFB;
+    border-radius: 3.66933px;
+  }
+
+  .medicine_instuction ul li .box_blue h6 {
+    font-weight: 450;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    color: #313131;
+    padding: 4px;
+    margin: 0;
+  }
+
+  .medicine_instuction {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+
+
+  .medicine_instuction h6 {
+    font-weight: 450;
+    font-size: 10.0907px;
+    line-height: 13px;
+    color: #313131;
+  }
+
+  .medicine_instuction h6 span {
+    display: block;
+  }
+
+  .prescriptions_mobile .paddingContentBody.mobile_medicine_box.tab-content {
+    padding: 15px;
+  }
+
+  .prescriptions_mobile .ant-select-selector {
+    background-color: #fff;
+    border: 1px solid #d0d0d0 !important;
+    border-radius: 12px !important;
+    line-height: 42px !important;
+  }
+
+  .prescriptions_mobile .ant-select-selector span.ant-select-selection-item,
+  .prescriptions_mobile .ant-select-selector .ant-select-selection-placeholder {
+    line-height: 40px;
+    font-size: 13px;
+    color: #959494;
+  }
+
+  .prescriptions_mobile .ant-select-selector input {
+    font-size: 13px;
+    color: #959494;
+    position: relative;
+    top: -2px;
+  }
+
+  .requency {
+    display: flex;
+    border: 0.3px solid #d9d9d9;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    padding: 0px 0 0px 15px;
+    height: 40px;
+    line-height: 40px;
+    justify-content: space-between;
+  }
+
+  .requency .arrow-input {
+    display: flex;
+    align-items: center;
+  }
+
+  .requency .arrow-input input {
+    margin: 0;
+    border: 0px !important;
+    padding: 0;
+    line-height: 32px;
+    width: 45px;
+    text-align: center;
+    color: #959494;
+    font-size: 16px;
+    font-family: 'Circular Std';
+    font-weight: 300;
+  }
+
+  .requency .labelText {
+    line-height: 40px;
+  }
+
+  .requency .arrow-input span {
+    padding: 0 14px;
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+    height: 100%;
+    line-height: 40px;
+  }
+
+  .requency .arrow-input span+span {}
+
+  .requency .arrow-input span:last-child {
+    border-right: 0px;
+  }
+
+  .requency .ant-row.ant-form-item {
+    height: 100%;
+  }
+
+  .requency .ant-row.ant-form-item .ant-form-item-control-input-content {
+    height: 100%;
+  }
+
+  .requency .ant-row.ant-form-item .ant-form-item-control-input-content .arrow-input {
+    height: 100%;
+  }
+
+  .requency .ant-row.ant-form-item .ant-form-item-control-input-content .arrow-input .ant-input-number {
+    height: 100%;
+    border: 0px;
+    padding: 0px;
+    ;
+  }
+
+  .requency .ant-row.ant-form-item .ant-form-item-control-input-content .arrow-input .ant-input-number .ant-input-number-input-wrap {
+    height: 100%;
+  }
+
+  .requency .ant-row.ant-form-item .ant-form-item-control-input-content .arrow-input .ant-input-number .ant-input-number-input-wrap input {
+    height: 40px;
+    border: 0px;
+    background: initial;
+  }
+
+  .prescriptions_mobile button.ant-btn.ant-btn-primary.simple_btn_small {
+    display: block;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16.6667px;
+    background: #29BCC1;
+    border-radius: 6px;
+    border-color: #29BCC1;
+    min-height: 44px !important;
+    padding: 0 0;
+  }
+
+  .prescriptions_mobile .ant-row.ant-form-item {
+    margin-bottom: 15px;
+  }
+
+  .MedBtn-btn {
+    border-radius: 6px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16.6667px;
+    height: 44px;
+    line-height: 44px;
+  }
+
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+
+  .prescription_box001 .medicine_instuction ul {
+    width: 100%;
+  }
+
+
+  .prescription_box001 button.accordion-button {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .prescriptions_mobile .prescriptionBox {
+    height: auto;
+    padding: 10px;
+    border-radius: 7px;
+  }
+
+
+  .prescriptions_mobile .prescriptionBox h4 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .pd-1 {
+    padding: 0 10px;
+  }
+
+  .hk_instant_modal_open_ask_modal .modal-body {
+    padding: 0 !important;
+  }
+
+  .hk_instant_modal_open_ask_modal .modal-body h4.fw-600.ff-Nunito.mb-4 {
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 0px) and (max-width:390px) {
+  .pd-10 {
+    padding: 0rem 0.7rem;
+  }
+
+  ul.header_prev_consult li {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  ul.result_prev_consult li {
+    font-size: 10px;
+    line-height: 17px;
+  }
+
+  ul.header_prev_consult,
+  .prev_consult_mob ul {
+    padding: 0rem 0.7rem;
+  }
+
+  a.view_presc {
+    font-size: 10px;
+  }
+
+  .medicine_instuction h6 {
+    font-size: 7.0907px;
+    width: 16%;
+  }
+
+  .medicine_instuction ul li .box_blue h6 {
+    font-size: 9.8427px;
+    line-height: 13px;
+    padding: 1px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .medicine_instuction ul {
+    width: 85%;
+  }
+
+  .medicine_instuction ul li {
+    margin-right: 2px;
+    width: 20%;
+  }
+
+  .medicine_instuction ul li p {
+    font-size: 8.0907px !important;
+  }
+
+  .prescription_box001 .medicine_instuction ul li {
+    width: 20%;
+    margin-right: 12px;
+  }
+
+  .prescription_box001 .medicine_instuction ul li .box_blue h6 {
+    font-size: 13px;
+  }
+
+  .prescription_box001 h6.instuction {
+    font-size: 10.5px;
+  }
+
+}
+
+@media (min-width: 0px) and (max-width:350px) {
+  .controls {
+    padding-right: 120px !important;
+  }
+}
+
+img.disabled_edit {
+  opacity: 0.5;
+}
+
+div#prescription .ant-input-number.ant-input-number-in-form-item input {
+  border: transparent !important;
+}
+
+div#prescription .ant-input-number.ant-input-number-in-form-item {
+  border-radius: 12px;
+  height: 56px;
+  margin-left: 0;
+  position: relative;
+  top: 2px;
+}
+
+
+
+
+
+.prescription1 .ant-input-number.ant-input-number-in-form-item input {
+  border: transparent !important;
+}
+
+.prescription1 .ant-input-number.ant-input-number-in-form-item {
+  border-radius: 12px;
+  height: 42px;
+  margin-left: 0;
+  position: relative;
+  top: 6px;
+}
+
+.Otp-continue-btn {
+  width: 80%;
+}
+
+.medicine_accordian.prescription_box001 span.duratiion_med img {
+  margin-left: 7px;
+}
+
+
+
+.medicalRecordsTableCall .ant-table-cell {
+  vertical-align: top;
+}
+
+
+.medicalRecordBox .reportsFor {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: #313131;
+}
+
+
+.acc_button_area.table_previous {}
+
+.acc_button_area.table_previous .tab-content {
+  background: #ffffff;
+  border: 0px solid #E3E3E3;
+  border-radius: 6px;
+  padding-bottom: 0;
+  margin: 11px;
+}
+
+.acc_button_area.table_previous .tab-content thead tr th {}
+
+.acc_button_area.table_previous .tab-content thead {
+  background: #ffffff;
+  height: auto;
+}
+
+.acc_button_area.table_previous .tab-content .hanlde_wrapper_schedule {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #313131;
+}
+
+.acc_button_area.table_previous .tab-content .hanlde_wrapper_schedule span {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.acc_button_area.table_previous .tab-content tbody tr td:first-child {
+  width: 210px;
+}
+
+
+
+.medicalRecordsTableCall .ant-table-cell {
+  vertical-align: top;
+}
+
+
+.medicalRecordBox .reportsFor {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: #313131;
+
+}
+
+
+.acc_button_area.table_previous {}
+
+.acc_button_area.table_previous .tab-content {
+  background: #ffffff;
+  border: 0px solid #E3E3E3;
+  border-radius: 6px;
+  padding-bottom: 0;
+  margin: 11px;
+}
+
+.acc_button_area.table_previous .tab-content thead tr th {}
+
+.acc_button_area.table_previous .tab-content thead {
+  background: #ffffff;
+  height: auto;
+}
+
+.acc_button_area.table_previous .tab-content .hanlde_wrapper_schedule {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #313131;
+}
+
+.acc_button_area.table_previous .tab-content .hanlde_wrapper_schedule span {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.Otp-continue-btn {
+  width: 80%;
+}
+
+div#prescription .ant-input-number.ant-input-number-in-form-item input {
+  border: transparent !important;
+}
+
+div#prescription .ant-input-number.ant-input-number-in-form-item {
+  border-radius: 12px;
+  height: 56px;
+  margin-left: 0;
+  position: relative;
+  top: 2px;
+}
+
+
+
+.prescription1 .ant-input-number.ant-input-number-in-form-item input {
+  border: transparent !important;
+}
+
+.prescription1 .ant-input-number.ant-input-number-in-form-item {
+  border-radius: 12px;
+  height: 56px;
+  margin-left: 0;
+  position: relative;
+  top: 2px;
+}
+
+div#prescription .MuiTabPanel-root {
+  padding: 0;
+}
+
+.table-scroll {
+  height: 309px;
+  overflow-y: scroll;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.table-scroll::-webkit-scrollbar {
+  display: none;
+}

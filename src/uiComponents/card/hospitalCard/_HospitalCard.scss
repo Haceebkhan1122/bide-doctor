@@ -1,0 +1,146 @@
+.hospital_card {
+  background-color: #ffffff;
+  border-radius: 19px;
+  padding: 25px 30px 30px;
+  gap: 5px;
+  position: relative;
+
+  .img_circle {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+
+    img {
+      padding: 5px 0 0 1px;
+    }
+  }
+  .circle_blue {
+    background-color: #bef5f1;
+  }
+  .circle_red {
+    background-color: #ffd3cb;
+  }
+  .top_options {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .heading_desc {
+    font-weight: 800;
+  }
+
+  .gap_flex {
+    gap: 40px;
+  }
+  .price_div {
+    background-color: #bef5f1;
+    border-radius: 9px;
+    padding: 5px 15px;
+    min-width: 94px;
+    .heading_desc_small {
+      font-weight: 800;
+    }
+  }
+
+  .little_gap {
+    gap: 5px;
+
+    div:nth-child(2) {
+      .heading_desc_small {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .small_gap {
+    gap: 5px;
+    flex-wrap: wrap;
+
+    &:nth-child(2) {
+      .heading_desc_small {
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+  }
+
+  .time_slot {
+    .heading_desc_small {
+      color: #29bcc1;
+      font-weight: 800;
+    }
+  }
+  .timings {
+    gap: 10px;
+    width: 100%;
+    .gap_flex {
+      border-top: 1px solid #d3d3d3;
+      padding-top: 7px;
+      // width: 100%;
+
+      margin-left: -30px;
+      width: 105%;
+      padding-right: 40px;
+      padding-left: 30px;
+
+      .day_name {
+        width: 55px;
+        text-transform: capitalize;
+      }
+      &:nth-child(1) {
+        // width: 100%;
+        border-top: none;
+        align-items: baseline;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .hospital_card {
+    padding: 25px 20px 30px;
+    gap: 10px;
+    
+    .column_flex {
+      gap: 10px;
+      .price_div {
+        margin-bottom: 10px;
+      }
+    }
+    .timings {
+      &.column_flex {
+        gap: 20px;
+      }
+    }
+    .gap_flex {
+      gap: 20px;
+    }
+
+    .flex_start {
+      width: 100%;
+      align-items: flex-start;
+      .top_options {
+        position: relative;
+        right: auto;
+        top: auto;
+      }
+    }
+
+    .timings {
+      .gap_flex {
+        width: 115.3%;
+        gap: 10px;
+        flex-direction: column;
+        padding-right: 0;
+        align-items: flex-start;
+        .day_name {
+          width: 107px;
+        }
+      }
+    }
+  }
+}

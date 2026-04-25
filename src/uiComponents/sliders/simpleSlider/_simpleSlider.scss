@@ -1,0 +1,74 @@
+.simple_slider_sec .slider_btns {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    max-width: 140px;
+    gap: 30px;
+    cursor: pointer;
+}
+
+/* .slick-arrow {
+    display: none !important;
+} */
+
+.profileSlider .slider_title {
+    font-size: 1.875rem;
+    line-height: 2.275rem;
+}
+
+.profileSlider {
+    flex-wrap: nowrap !important;
+    margin-top: 20px;
+}
+
+.profileSlider .col-md-9 {
+    width: 100%;
+}
+
+.profileSlider .col-md-2 {
+    max-width: 200px;
+}
+
+.gallery .slick-track {
+    display: flex;
+}
+
+.slick-slide {
+    width: 100%;
+}
+
+.grey_div {
+    width: 220px;
+}
+
+.grey_div_low_width {
+    width: 150px;
+}
+
+.first_slider {
+    display: flex;
+    justify-content: center;
+    width: 68%;
+}
+
+.first_slider .slick-list {
+    width: 120px;
+    text-align: center;
+}
+
+.slick-prev,
+.slick-next {
+    color: #9D9D9D;
+    font-size: 30px;
+}
+
+.gallery .arrowDisabled {
+    opacity: .5;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    color: #9D9D9D;
+}

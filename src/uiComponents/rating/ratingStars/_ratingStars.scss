@@ -1,0 +1,28 @@
+.rating {
+	display: flex;
+	align-items: center;
+	min-height: 35px;
+	min-width: 130px;
+	border-top-right-radius: 20px;
+	background-color: var(--tifannyblue-clr);
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: var(--white-clr);
+	h6 {
+		font-size: 0.938rem;
+		font-weight: 400;
+	}
+	span {
+		opacity: 0.5;
+	}
+	img {
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+}
+.ratingStars {
+	svg {
+		font-size: 1.125rem;
+	}
+}

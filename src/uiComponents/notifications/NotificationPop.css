@@ -1,0 +1,75 @@
+.notification-icon-open{
+    position: absolute;
+    right: 30px;
+    border-radius: 6px 6px 0px 0px;
+    background: #fff;
+    box-shadow: 0px 5px 8px rgb(0 0 0 / 10%);
+    border-radius: 6px;
+    max-width: 440px;
+    min-width: 440px;
+    z-index: 9;
+    top: 70px;
+}
+.notification-icon-open .share-record-button{
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    height: 35px;
+}
+.notification-icon-open .unreadNotifications .bellIcons{
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+.notification-icon-open .see-all-color{
+    color: #078A8E;
+}
+.color-1A1F36{
+    color: #1A1F36;
+}
+
+
+.notifications-tabss .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color: #EF6286;
+}
+
+.notifications-tabss .css-1aquho2-MuiTabs-indicator  {
+    background-color: #EF6286 ;
+}
+
+.notifications-tabss .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    text-transform: initial;
+}
+
+
+.newNotificationCircle:before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #EF6286;
+    border-radius: 50%;
+    top: -10px;
+    left: -8px;
+}
+
+.see-all h5 {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  font-family: Circular Std;
+  color: #078A8E;
+}
+
+.see-all {
+    padding: 15px;
+}
+
+/* .for-scroll-notification .MuiTabPanel-root{
+    max-height: 300px;
+    overflow: auto;
+} */
+

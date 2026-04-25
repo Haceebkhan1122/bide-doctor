@@ -1,0 +1,67 @@
+.previous-appointments-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.previous-appointments-icon-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.previous-appointments-link:hover {
+  color: inherit;
+}
+
+.existingConditionSliders .roundButton {
+  pointer-events: none;
+}
+
+.emptyLabState {
+  height: 200px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #9A9A9A;
+}
+
+
+.prescriptionDoctorView{
+  font-family: 'Circular Std';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 23px;
+padding: 1rem;
+color: #313131;
+}
+
+
+.backToAppointments{
+  padding-top: 2rem;
+  text-align: left;
+}
+
+.backToAppointments img{
+  width: 35px;
+  height: 35px;
+}
+
+.backToAppointments a {
+  margin-left: 20px;
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.05em;
+color: #313131;
+}

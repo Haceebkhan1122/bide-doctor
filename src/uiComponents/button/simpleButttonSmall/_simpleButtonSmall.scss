@@ -1,0 +1,36 @@
+.simple_btn_small
+ {
+  /* color: var(--white-clr);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  border-radius: 16px;
+  min-height: 51px;
+  position: relative;
+  padding: 10px 50px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out; */
+
+  display: flex;
+  align-items: center;
+  color: var(--white-clr);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  border-radius: 16px;
+  min-height: 51px;
+  position: relative;
+  padding: 10px 20px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  background-color: var(--green-clr);
+  justify-content: space-between;
+  width: 100%;
+
+  &:hover {
+    background-color: var(--white-clr);
+    color: var(--green-clr);
+    border: 1px solid var(--green-clr);
+  }
+}

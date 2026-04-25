@@ -1,0 +1,568 @@
+.hk_doctor_login .description-circle-group img {
+  height: 26px;
+}
+
+.logoEUheee {
+  width: 192px;
+  height: 29.892px;
+  object-fit: contain;
+}
+
+.singup-mobile-col.hk_doctor_login .image-below img {
+  height: 525px;
+}
+
+.logo_only .logoEU {
+  height: 40px;
+}
+
+.inppin {
+  padding-left: 24px !important;
+}
+
+.logo_only .logoS {
+  height: 80px;
+}
+
+.logo_only {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 49px;
+}
+
+.switchDoctorModal .Mui-selected:hover {
+  background-color: #29BCC1;
+}
+
+.hk_doctor_login .continue-number-box p {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 20px;
+  word-spacing: -3px;
+  padding-left: 12px;
+  margin-top: -3px;
+}
+
+.hk_doctor_login .hk_number.ek_number {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  position: relative;
+}
+
+.hk_doctor_login .hk_number .country_code_hk {
+  border-right: 1px solid #ccc;
+  padding: 0 0 0 5px;
+}
+
+.hk_doctor_login .btn-cont .instant-btn {
+  border-radius: 12px;
+  background-color: #29BCC1;
+  color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 53px;
+  padding: 0;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 800;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-family: 'Nunito';
+}
+
+.hk_doctor_login .instant_login_hk button.statenotchanged span.instant-chevron.instant-code-chev {
+  background: #8E8E8E !important;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.hk_doctor_login .btn-cont .instant-btn .instant-chevron {
+  float: right;
+  background-color: #078A8E !important;
+  font-size: 16px;
+  height: 44px;
+  width: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 0px 10px 10px 0px;
+  position: absolute;
+  right: 0;
+  left: auto;
+}
+
+.hk_doctor_login .instant_login_hk button.statenotchanged {
+  background: #e5ece8 !important;
+  color: #959494 !important;
+}
+
+p.instant-error-msg {
+  color: #bc0001 !important;
+  font-weight: 500 !important;
+  font-family: 'Circular Std';
+  font-size: 12px;
+  position: relative;
+  top: 7px;
+}
+
+
+
+
+.hk_doctor_login .hk_number .ant-select.select-country.hk_network .ant-select-selector span.ant-select-selection-item img {
+  margin-right: 5px;
+}
+
+.hk_doctor_login span.instant-chevron.instant-code-chev svg {
+  font-size: 22px;
+  position: relative;
+  /* top: 14px; */
+}
+
+.singup-mobile-col.hk_doctor_login .continue-number-box .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  height: 50px !important;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+}
+
+.singup-mobile-col.hk_doctor_login .hk_number input.input-number {
+  border-bottom: none;
+  border-top: none;
+  border-radius: 12px;
+  color: #313131;
+  height: 48px;
+}
+
+.singup-mobile-col.hk_doctor_login .hk_number .country_code_hk .ant-select-selector {
+  border: none;
+}
+
+.singup-mobile-col.hk_doctor_login .label_and_loader_area img {
+  height: 30px;
+}
+
+.singup-mobile-col.hk_doctor_login .label_and_loader_area {
+  position: absolute;
+  right: -3px;
+  margin-top: -25px;
+}
+
+.singup-mobile-col.hk_doctor_login p.userNotFoundError.instant-error-msg {
+  font-size: 14px;
+  color: #19B3B5 !important;
+  word-spacing: -4px;
+}
+
+.singup-mobile-col.hk_doctor_login .form_controll.form-drop.form-Econtrol {
+  position: relative;
+}
+
+.create-appointment-modal input[type=number] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.create-appointment-modal input::-webkit-outer-spin-button,
+.create-appointment-modal input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+form.alert_red .hk_number.ek_number {
+  border: 0.5px solid #BC0001;
+}
+
+form.alert_red .hk_number.ek_number input.input-number.input-number-ek {
+  color: #BC0001;
+}
+
+.hk_signin_otp_doctor.signup_otp_style {
+  width: 544px;
+  height: 586px;
+  border-radius: 12px;
+  background: #FFF;
+}
+
+.otp-login-box .otpContainer input {
+  width: 102.31px !important;
+  height: 108.373px !important;
+  border: 1px solid #313131;
+  border-radius: 12px !important;
+}
+
+.hk_signin_otp_doctor.signup_otp_style button.review-button.text-uppercase.loginOtp-phone-btn {
+  width: 454.71px;
+  height: 53px;
+  margin: auto;
+}
+
+.card.hk_firstfold {
+  height: 71px;
+  border-radius: 12px;
+}
+
+.card.hk_firstfold .nameDoctor {
+  padding-left: 25px;
+  position: relative;
+  top: -5px;
+}
+
+.card.hk_firstfold .nameDoctor h4 {
+  color: #313131 !important;
+  font-family: Nunito;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.bg-blue.dashboard_bg_color {
+  background-color: #E1F3F4;
+}
+
+.patient_wrapper_main {
+  border-radius: 12px;
+  background: #FFF;
+}
+
+.patient_wrapper_main .nameDoctor h4 {
+  color: #313131 !important;
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 40px;
+}
+
+.patient_wrapper_main {
+  border-radius: 12px;
+  background: #FFF;
+  padding-top: 20px;
+  min-height: 612px;
+  margin-top: 30px;
+}
+
+.patient_wrapper_main .nameDoctor h4 {
+  color: #313131 !important;
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+tr.thead_bg {
+  background: #F5F6F7;
+  height: 37px;
+}
+
+tr.thead_bg th {
+  padding-left: 40px;
+  color: #8E8E8E;
+  font-family: "Circular Std";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+}
+
+.circular_bar {
+  width: 200px;
+  height: 78.431px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: rgba(244, 244, 244, 0.40);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  position: absolute;
+  right: 114px;
+  top: 28px;
+}
+
+.hpfLogo {
+  width: 62.745px;
+  height: 50.98px;
+  object-fit: cover;
+}
+
+.divider {
+  height: 58.823px;
+  background-color: #EEE;
+  opacity: .5;
+}
+
+.bideLogo {
+  width: 98.039px;
+  height: 31.373px;
+  object-fit: cover;
+}
+
+.patient_wrapper_main tr td {
+  color: #313131;
+  font-family: "Circular Std";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+  padding-left: 40px;
+  padding-top: 11px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #D9D9D9;
+  word-break: break-all;
+}
+
+.patient_wrapper_main tr td:nth-child(3),
+.patient_wrapper_main tr th:nth-child(3) {
+  max-width: 320px;
+}
+
+.btn_wrap btn._actionss {
+  display: flex;
+  width: 85px;
+  height: 31px;
+  padding: 13.077px 12.308px;
+  justify-content: center;
+  align-items: center;
+  gap: 7.692px;
+}
+
+.btn_wrap button._actionss {
+  display: inline-flex;
+  width: 85px;
+  height: 31px;
+  padding: 13.077px 12.308px;
+  justify-content: center;
+  align-items: center;
+  gap: 7.692px;
+  border-radius: 9.231px;
+  border: 1.25px solid #BC0001;
+  background-color: transparent;
+  color: #BC0001;
+  text-align: center;
+  font-family: "Circular Std";
+  font-size: 13.5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 10px;
+}
+
+.btn_wrap button._actionss.starttt {
+  border: 1.25px solid #19B3B5;
+  background: #19B3B5;
+  color: white;
+}
+
+.thead_bg th:last-child {
+  width: 330px;
+  text-align: center;
+  padding-left: 0;
+}
+
+.btn_wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_wrap button:last-child {
+  margin-right: 0;
+}
+
+.patient_wrapper_main tr td:last-child {
+  padding-left: 0;
+}
+
+.patient_wrapper_main tr:last-child td {
+  border-bottom: 0px solid #D9D9D9;
+}
+
+
+.cancelBox {
+  text-align: center;
+}
+
+.cancelBox h2 {
+  font-family: Nunito;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 70px;
+  color: #313131;
+
+
+}
+
+.btn-01 {
+  width: 168px;
+  height: 48px;
+  border-radius: 9px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0 12px;
+  text-transform: uppercase;
+  color: #313131;
+
+
+}
+
+.btnlight {
+  border: 1px solid #313131;
+}
+
+.btnblue {
+  text-transform: uppercase;
+  background: #29BCC1;
+  color: #fff;
+  border: 1px solid #29BCC1;
+  font-weight: 800;
+}
+
+.cancelModal .ant-modal-footer {
+  display: none;
+}
+
+.cancelModal .ant-modal-content {
+  border-radius: 12px;
+  width: 536px;
+}
+
+.cancelModal .ant-modal-body {
+  padding: 50px;
+}
+
+.closeIcon {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+
+.meal {
+  position: relative;
+  margin-right: 18px;
+}
+
+
+.meal label:before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  border: 1px solid #D9D9D9;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.meal label {
+  position: relative;
+  color: #313131;
+  font-family: "Circular Std";
+  font-size: 18px;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-left: 27px;
+}
+
+.meal input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.meal input:checked+label:before {
+  background: #EF6286 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='20' viewBox='0 0 18 20' fill='none'%3E%3Crect x='0.5' y='1.375' width='17' height='17' rx='3.5' stroke='%23D9D9D9'/%3E%3Crect y='1.125' width='18' height='18' rx='4' fill='%23EF6286'/%3E%3Cpath d='M4.5 9.85258L7.77273 13.1253L13.7727 7.12531' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-color: #EF6286;
+}
+
+.c_select span.ant-select-selection-item {
+  padding-top: 0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .singup-mobile-col.hk_doctor_login p.userNotFoundError.instant-error-msg {
+    font-size: 10px;
+    color: #bc0001 !important;
+    word-spacing: -4px;
+    text-align: center;
+    position: relative;
+    left: 28px;
+    font-weight: 500 !important;
+    font-family: 'Circular Std';
+
+  }
+
+  .hk_bottom_stick {
+    margin-top: 80%;
+  }
+}
+
+span.ant-select-selection-item {
+  color: #313131;
+  font-family: "Circular Std";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-top: 5px !important;
+}
+
+button.disabled.disabled_cancelled {
+  background-color: #d4d4d4 !important;
+  border-color: #d4d4d4 !important;
+}
+
+button.btn.disabled_null_cancel {
+  border-color: #bababa !important;
+  color: #bababa !important;
+}
+
+td.red_text {
+  color: #BC0001 !important;
+}

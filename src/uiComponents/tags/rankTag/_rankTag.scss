@@ -1,0 +1,22 @@
+.rankTag {
+  padding-right: 15px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  margin-left: 5px;
+  margin-top: 10px;
+
+  img {
+    margin-left: -5px;
+    width: 33px;
+    height: 33px;
+  }
+  h6 {
+    font-size: 0.688rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,417 @@
+ .pb-30 {
+     padding-bottom: 30px;
+ }
+
+ .date_filter {
+
+
+     .from_01 {
+         font-weight: 500;
+         font-size: 14px;
+         line-height: 20px;
+         color: #535151;
+         margin-right: 8px;
+         font-family: "Circular Std", sans-serif;
+
+         @media (min-width:1301px) and (max-width:1500px) {
+             font-size: 14px;
+
+         }
+     }
+
+     .ant-picker.ant-picker-range {
+         @media (min-width:0px) and (max-width:767px) {
+             width: 86%;
+         }
+
+
+         span.ant-picker-suffix {
+             display: none;
+         }
+     }
+
+     .ant-picker-active-bar {
+         display: none;
+     }
+
+
+
+
+     .ant-picker-focused {
+         box-shadow: 0 0 0 0px rgba(24, 144, 255, 0.2);
+     }
+ }
+
+ .date_filter .ant-picker.ant-picker-range input:-ms-input-placeholder {
+     color: #313131 !important;
+ }
+
+ .date_filter .ant-picker.ant-picker-range input::-ms-input-placeholder {
+     color: #313131 !important;
+ }
+
+
+ .date_filter .ant-picker.ant-picker-range input::placeholder {
+     font-weight: 400;
+     color: #313131 !important;
+ }
+
+ .date_filter .ant-picker.ant-picker-range {
+     background: initial;
+     border: 0px;
+     padding: 0;
+
+     .ant-picker-input {
+         background: #FFFFFF url(/assets/images/png/clander.png);
+         background-repeat: no-repeat;
+         background-position: 90% center;
+         border: 0.3px solid #9594945e;
+         border-radius: 6px;
+         height: 40px;
+         line-height: 40px;
+         padding: 0 10px;
+         //  min-width: 165px;
+
+         input {
+             font-weight: 300;
+             font-size: 13px;
+             color: #313131;
+
+         }
+
+         @media (min-width:1301px) and (max-width:1500px) {
+             height: 35px;
+             line-height: 35px;
+             //  min-width: 164px;
+
+         }
+
+         @media (min-width:1101px) and (max-width:1300px) {
+             height: 35px;
+             line-height: 35px;
+             //  min-width: 154px;
+
+         }
+     }
+ }
+
+ .date_filter .ant-picker-range-separator {
+     span.ant-picker-separator {
+         display: none;
+
+     }
+ }
+
+ .date_filter .ant-picker-range-separator:after {
+     content: 'To';
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 20px;
+     color: #535151;
+     font-family: "Circular Std", sans-serif;
+
+     @media (min-width:1301px) and (max-width:1500px) {
+         font-size: 14px;
+
+     }
+
+ }
+
+ .Payment_history .ant-pagination-item {
+     width: 35px;
+     height: 35px;
+     line-height: 35px;
+     border-radius: 50%;
+     font-weight: 500;
+ }
+
+ .Payment_history .ant-pagination-item-active {
+     background: #29BCC1;
+
+     color: #fff;
+
+
+     a {
+         font-size: 14px !important;
+     }
+ }
+
+ .Payment_history {
+     .ant-table {
+         border-radius: 8px;
+         overflow: hidden;
+     }
+
+     @media (min-width:0px) and (max-width:767px) {
+         overflow: auto;
+
+     }
+
+     tbody.ant-table-tbody tr td {
+         padding-top: 27px;
+         padding-bottom: 27px;
+         font-weight: 300;
+         font-size: 16.0969px;
+         line-height: 23px;
+         color: #313131;
+         font-family: "Circular Std", sans-serif;
+
+         a {
+             color: rgb(239, 98, 134);
+             text-decoration: underline;
+         }
+
+         @media (min-width:1301px) and (max-width:1500px) {
+             padding-top: 20px;
+             padding-bottom: 20px;
+
+         }
+     }
+
+     .ant-table-cell {
+         text-align: center !important;
+     }
+ }
+
+ .view_deduction {
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 23px;
+     text-decoration: underline;
+     color: #0645AD;
+
+     @media (min-width:1301px) and (max-width:1500px) {
+         font-size: 15px;
+
+     }
+
+     @media (min-width:0px) and (max-width:767px) {
+         font-size: 12px;
+
+     }
+
+
+ }
+
+ .view_deduction:hover {
+     text-decoration: underline;
+ }
+
+
+ .btn_search {
+     position: relative;
+     //  width: 80%;
+     width: 100%;
+     margin-left: auto;
+     margin-bottom: 28px;
+     z-index: 9;
+
+     input {
+         box-shadow: initial;
+         border: 0.3px solid #9594945e;
+         border-radius: 6px;
+         height: 40px;
+         line-height: 40px;
+         color: #959494;
+         font-weight: 300;
+         font-size: 12px;
+     }
+
+     input::placeholder {
+         font-size: 10px;
+     }
+
+     .icon_search {
+         z-index: 999;
+         position: absolute;
+         width: 40px;
+         height: 40px;
+         background: #29BCC1;
+         border-radius: 0px 6px 6px 0px;
+         line-height: 40px;
+         text-align: center;
+         top: 0;
+         right: 0;
+         cursor: pointer;
+
+
+     }
+ }
+
+
+ .call_now {
+     display: flex;
+     justify-content: center;
+     padding-top: 10px;
+     z-index: 999;
+     position: relative;
+
+     svg {
+         margin-right: 10px;
+     }
+
+     p {
+         font-size: 18px;
+         line-height: 25px;
+         color: #404040;
+
+         a {
+             color: #0645AD;
+             font-weight: 700;
+         }
+     }
+ }
+
+ .payment_history_modal .ant-table-column-title {
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 23px;
+     font-family: "Circular Std", sans-serif;
+
+     @media (min-width:1301px) and (max-width:1500px) {
+         font-size: 16px;
+
+     }
+ }
+
+ .ant-modal.payment_history_modal {
+     width: 1200px !important;
+
+     @media (min-width:1301px) and (max-width:1500px) {
+         width: 970px !important;
+
+     }
+ }
+
+ .list_appoint {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+
+     li.listing {
+         ul {
+             padding: 0;
+             margin: 0;
+             display: flex;
+
+             list-style: none;
+
+             li {
+                 border-bottom: 0.3px solid rgba(149, 148, 148, 0.368627451);
+                 padding-top: 20px;
+                 padding-bottom: 20px;
+                 text-align: center;
+                 width: 33.3333%;
+                 font-weight: 400;
+                 font-size: 16.0969px;
+                 line-height: 23px;
+
+                 @media (min-width:1301px) and (max-width:1500px) {
+                     font-size: 14px;
+
+                 }
+             }
+         }
+     }
+
+     li.header_list {
+         background: #EAFAFB;
+
+         ul {
+             display: flex;
+
+             list-style: none;
+             padding: 16px 0;
+
+             li {
+
+                 text-align: center;
+                 width: 33.3333%;
+                 font-size: 16.0969px;
+                 line-height: 20px;
+                 font-weight: 700;
+                 color: #313131;
+
+                 @media (min-width:1301px) and (max-width:1500px) {
+                     font-size: 14px;
+
+                 }
+             }
+         }
+     }
+ }
+
+ .payment_history_modal .ant-modal-body {
+     padding: 0 !important;
+ }
+
+
+ .payment_history_modal .ant-modal-content {
+     border-radius: 12px !important;
+
+     .ant-modal-header {
+         border-radius: 12px 12px 0 0 !important;
+     }
+ }
+
+ .payment_history_modal .ant-modal-title {
+     font-weight: 500;
+     font-size: 26px;
+     line-height: 33px;
+     display: flex;
+     align-items: center;
+     color: #313131;
+
+     @media (min-width:1301px) and (max-width:1500px) {
+         font-size: 22px;
+         line-height: 28px;
+
+     }
+ }
+
+ .anticon {
+     svg {
+         fill: #313131;
+     }
+ }
+
+
+
+
+
+
+
+
+
+ .fix-height {
+     max-height: 612px;
+     overflow-y: auto;
+
+     @media (min-width:1301px) and (max-width:1500px) {
+         max-height: 470px;
+
+     }
+
+ }
+
+ .fix-height::-webkit-scrollbar {
+     width: 16px;
+ }
+
+ .fix-height::-webkit-scrollbar-track {}
+
+ .fix-height::-webkit-scrollbar-thumb {
+     background: #D9D9D9;
+     border-radius: 100px
+ }
+
+ .payment_history_modal .ant-modal-footer {
+     display: none;
+
+ }
+
+
+ .deduction_list .ant-table-cell{
+    text-align: center !important;
+    width: 33.33%  !important;
+ }

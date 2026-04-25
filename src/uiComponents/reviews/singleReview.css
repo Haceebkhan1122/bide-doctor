@@ -1,0 +1,53 @@
+.single-review-container {
+  display: flex;
+  flex-direction: column;
+  border: 0.3px solid #8E8E8E;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.single-review-container .review-headline {
+  display: flex;
+}
+
+.review-headline {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+
+}
+
+.review-headline p {
+  margin-left: 8px;
+  font-weight: 600;
+}
+
+.single-doctor-review-text {
+  color: #404040;
+  font-weight: 350;
+}
+
+.single-doctor-review-text p {
+  word-break: break-all;
+}
+
+.single-doctor-review-date {
+  color: #848484;
+  font-size: 14px;
+}
+
+.single-doctor-review-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-doctor-review-buttons .review-button {
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  height: 43px;
+  width: 282px;
+}

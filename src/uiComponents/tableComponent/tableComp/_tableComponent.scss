@@ -1,0 +1,139 @@
+.ant-table {
+  overflow: auto;
+}
+.ant-table-thead > tr > th {
+  background-color: #d6d6d6;
+  padding: 10px 20px;
+  font-weight: 800;
+}
+.ant-table-tbody > tr > td {
+  padding: 5px 20px;
+  font-size: 14px;
+}
+.ant-table-thead > tr > th::before {
+  content: none !important;
+}
+.ant-table-thead th.ant-table-column-sort,
+.ant-table-thead th.ant-table-column-has-sorters:hover {
+  background: none;
+  background-color: #d6d6d6;
+}
+td.ant-table-column-sort {
+  background: none;
+}
+.ant-table-tbody > tr > td:nth-child(1),
+.ant-table-tbody > tr > td:nth-child(4) {
+  // font-weight: 800;
+}
+.ant-table-thead > tr > th:nth-child(3),
+.ant-table-thead > tr > th:nth-child(5),
+.ant-table-tbody > tr > td:nth-child(3),
+.ant-table-tbody > tr > td:nth-child(5),
+.ant-table-tbody > tr > td:nth-child(6) {
+  text-align: center;
+}
+.ant-table-tbody > tr > td:last-child {
+  // width: 260px;
+}
+.ant-table-pagination-right {
+  justify-content: flex-end;
+}
+.anticon {
+  vertical-align: 0.1em;
+}
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link,
+.ant-pagination-item {
+  border-radius: 5px;
+  border: none;
+  color: #414254;
+  background-color: transparent;
+}
+.ant-pagination-item a,
+.ant-select-selection-item {
+  font-size: 1rem;
+}
+.ant-pagination-item{
+  color: #313131;
+}
+.ant-pagination-item-active {
+  border: none;
+  // background-color: #72d54a;
+  background-color: transparent;
+  color: #078A8E;
+}
+
+.grey_arrow {
+  font-size: 30px;
+  stroke-width: 1px;
+}
+.inline_data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inline-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow_grey {
+  font-size: 30px;
+  color: #9d9d9d;
+}
+.consult_now {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3px;
+  
+  .inline_data {
+    gap: 3px;
+  }
+  .arrow_green {
+    font-size: 30px;
+    stroke-width: 1px;
+    color: #72d54a;
+  }
+  p {
+    font-weight: 400;
+    letter-spacing: 0.9px;
+    color: #72d54a;
+    text-transform: uppercase;
+  }
+}
+.consult_later {
+  p {
+    font-weight: 600;
+    color: #9d9d9d;
+    padding-left: 70px;
+  }
+  .completed {
+    text-decoration: underline;
+  }
+}
+
+.empty-state {
+  font-weight: bold;
+  color: 'black !important';
+}
+
+.earning-empty-text {
+  font-weight: 300;
+  color: #959494 !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .consult_later {
+    p {
+      padding-left: 50px;
+    }
+  }
+  .inline_data.gap_flex1 {
+    flex-direction: column;
+    gap: 0;
+    padding-bottom: 10px;
+  }
+}

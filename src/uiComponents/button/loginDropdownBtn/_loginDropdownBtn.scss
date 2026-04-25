@@ -1,0 +1,134 @@
+.loginDropdownContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#loginDropdown .dropdown-toggle {
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+}
+
+#loginDropdown .dropdown-toggle:focus {
+  box-shadow: 0 0 0 0;
+}
+
+#loginDropdown .dropDownTitle {
+  height: 36px;
+  width: 36px;
+  background-color: var(--rosepink-clr);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#loginDropdown .dropdown-menu[data-bs-popper] {
+  left: unset;
+  right: 0;
+}
+
+#loginDropdown .dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 13px;
+  padding: 0;
+  min-width: 250px;
+  border: 0;
+}
+
+#loginDropdown .dropdown-menu .dropdown-item {
+  border-bottom: 1px solid #d7d7dd;
+  border-bottom: 0;
+  padding: 15px 10px 15px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // font-size: 0.875rem;
+  // font-family: 'Nunito', sans-serif;
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #535151;
+}
+
+#loginDropdown .dropdown-menu .dropdown-item.active {
+  background-color: transparent;
+  color: black;
+}
+
+#loginDropdown .dropdown-menu .dropdown-item:last-child {
+  border-bottom: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #313131;
+  padding-top: 15px;
+}
+
+#loginDropdown .dropdown-menu .dropdown-item:hover,
+#loginDropdown .dropdown-menu .dropdown-item:focus {
+  // background-color: #d7d7dd !important;
+  background-color: transparent !important;
+}
+
+#loginDropdown .dropDownTitle .heading_desc {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 0;
+  line-height: 1;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+}
+
+#loginDropdown .dropdown-toggle::after {
+  display: none;
+}
+
+#loginDropdown .arrowIcon img {
+  width: 11px;
+  height: 8px;
+}
+
+.confirmLogoutModdal .modal-content {
+  padding: 3rem !important;
+}
+
+.closeButtonCancelModal {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+}
+
+.dr_box0 {
+  display: flex;
+  align-items: center;
+  padding: 16px 10px;
+  border-bottom: 1px solid #d7d7dd;
+}
+
+.dr_box0 .dropDownTitle {
+  margin-right: 8px;
+}
+
+.confirmLogoutModdal .modal-content {
+  padding: 3rem !important;
+}
+
+.closeButtonCancelModal {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+}

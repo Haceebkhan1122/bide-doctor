@@ -1,0 +1,22 @@
+@import "../../../assets/scss/variable";
+.simple_ancer {
+  display: flex;
+  align-items: center;
+  color: $white;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  border-radius: 16px;
+  min-height: 62px;
+  position: relative;
+  padding: 10px 20px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  justify-content: center;
+  background-color: $pink;
+  &:hover {
+    color: $white;
+  }
+}
+

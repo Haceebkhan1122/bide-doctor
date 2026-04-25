@@ -1,0 +1,205 @@
+.p-40{padding: 40px;}
+.newSelect {
+    padding: 0!important;
+    border-radius: 10px!important;
+    box-shadow: initial!important; border: 0.33px solid #959494!important;
+}
+
+.form001.newSelect{
+    width: 306px !important;
+}
+
+.newSelect .ant-select-selector {
+    height: 40px!important;
+   
+    background: #fff0!important;
+}
+
+.newSelect span.ant-select-selection-placeholder {
+    line-height: 40px!important;
+    color: #313131;
+    font-family: "Circular Std";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+ 
+.form002 {
+    height: 40.626px;
+    border-radius: 6.605px;
+    border: 0.33px solid #959494!important;
+    padding: 0 8px!important;
+    background: #fff!important;
+    color: #313131;
+    font-family: "Circular Std";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+ 
+
+.labelText1 {
+    color: #535151;
+    font-family: "Circular Std";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+.borderBox1{
+    border: 0.33px solid #959494!important;
+    padding: 0 8px!important;
+    background: #fff!important;
+    border-radius: 6.605px;
+    height: 40.733px;
+    line-height: 40.733px;
+}
+.borderBox2{
+    border: 0.33px solid #959494!important;
+    padding: 0 8px!important;
+    background: #fff!important;
+    border-radius:22.018px;
+    height: 40.733px;
+    line-height: 40.733px;
+}
+
+
+.radioBox span.ant-radio-inner {
+    border-radius: 8.807px;
+    border: 1.101px solid var(--Neutral-80, #BBC5D3);
+    background-color: #fff!important;
+    box-shadow: 0px 1.202px 2.605px 0px rgba(0, 0, 0, 0.08) inset;
+}
+.radioBox  label.ant-radio-wrapper  span {
+    color: #12161C;
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+} 
+.p-24 {
+    padding: 30px 15px;
+}
+.p-26 {
+    padding: 30px 24px;
+}
+.gap72{gap: 52px;}
+ 
+
+.form002 
+ .ant-input-number-input-wrap {
+    height: 100%;
+}
+
+.form002 .ant-input-number-input-wrap input {
+    height: 100%;
+    color: #313131;
+    font-family: "Circular Std";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 0;
+}
+
+.form002 .ant-input-number-input-wrap input::placeholder {
+  color: #313131;
+}
+
+.form002 .ant-input-number-input-wrap input::-ms-input-placeholder { /* Edge 12-18 */
+  color: #313131;
+} 
+
+.newSpacing label.ant-radio-wrapper {
+    margin-right: 0;
+}
+.spacing_grid .col-lg-3{padding: 0px 27px;}
+.spacing_grid {
+    margin-bottom: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* vital page style  */
+.personalHistoryForm.vitals {}
+
+.personalHistoryForm.vitals .ant-select-selector {
+    height: 56px!important;
+    padding: 0 16px;
+    border-radius: 10px;
+}
+
+.personalHistoryForm.vitals .ant-select-selector span.ant-select-selection-placeholder {
+    line-height: 56px!important;
+    font-size: 20px;
+    color: #959494;
+    font-weight: 300;
+}
+
+.personalHistoryForm.vitals .form002 {
+    height: 56px;
+    padding: 0 16px!important;
+    font-size: 20px;
+    color: #959494;
+}
+
+.personalHistoryForm.vitals .labelText1 {
+    font-size: 18px!important;
+    color: #313131; 
+    font-family: "Circular Std"; 
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}#prescription .ant-select-single .ant-select-selector .ant-select-selection-placeholder, .appointment_div_data .ant-select-single .ant-select-selector .ant-select-selection-placeholder,#prescription .ant-select-single .ant-select-selector .ant-select-selection-item, .appointment_div_data .ant-select-single .ant-select-selector .ant-select-selection-item {
+    color: #959494;
+    font-family: "Circular Std";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    /* line-height: normal; */
+}
+
+.submitVitalsButton{
+    background-color: #29BCC1;
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 0px 20px;
+    width: 100%;
+    margin-top: 0px;
+    font-size: 15px;
+    min-height: 56px;
+    justify-content: center;
+    border: 1px solid #29BCC1;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}

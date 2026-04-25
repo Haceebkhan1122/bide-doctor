@@ -1,0 +1,602 @@
+section.mobile_menu {}
+
+
+
+.mobile_menu {
+    padding: 13px 0 0px 0;
+    border-bottom: 0.1px solid #C0C0C0;
+
+    .m-auto.nav {
+        justify-content: space-around;
+
+        a {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 7px;
+            display: flex;
+            flex-direction: column;
+            span{
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 9px;
+                line-height: 12px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+
+                color: #313131;
+            }
+        }
+      
+
+        a.linkactive {
+            .icon {}
+        }
+    }
+}
+
+.mobile_menu a.linkactive {
+    fill: #19B3B5;
+    position: relative;
+    color: #19B3B5;
+
+}
+.mobile_menu a.linkactive span{
+    color: #19B3B5 !important;
+
+}
+.mobile_menu a span.pinkColor{
+        color: #EF6286 !important;
+}
+.mobile_menu a.linkactive:before {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #19B3B5;
+    border-radius: 3px 3px 0px 0px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.mobile_menu a:hover .icon path {
+    fill: #19B3B5;
+}
+
+@media (min-width:0px) and (max-width: 767px) {
+
+
+
+
+    .paddingSameLR {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .earningHeadingTop h5 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .earningHeadingTop a.simple_ancer_small {
+
+        font-size: 14px !important;
+        padding: 4px 9px !important;
+        min-height: 30px;
+    }
+
+    section.mobile_menu_new {
+        margin-bottom: 10px;
+    }
+
+
+
+.forArrow .accordion-button:not(.collapsed)::after{
+    margin-bottom: 14px;
+}
+
+
+
+
+
+
+
+    .heading_desc_small {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .quickSummaryBox .card h6 {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .earnings .heading_desc {
+        font-size: 24px;
+        line-height: 30px;
+        text-align: right;
+    }
+
+    .white_color_div {
+        flex-wrap: wrap;
+    }
+
+
+    .videoCallBoxx .singleBoxCalls {
+        margin-bottom: 10px;
+    }
+
+    .videoCallBoxx h6 {
+        font-size: 15.2px;
+        line-height: 19px;
+    }
+
+    .videoCallBoxx h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+
+    .or-1 {
+        order: 1;
+    }
+
+    .or-2 {
+        order: 2;
+    }
+
+    .or-3 {
+        order: 3;
+    }
+
+    .heading_desc_small br {
+        display: none;
+    }
+
+    .earnings .white_color_div {
+        padding: 20px 15px;
+    }
+
+    .mobile_earning_dashboard {}
+
+    .mobile_earning_dashboard .btn_search.searchBarButton {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .accordian_earning_mobile .accordion-item {
+        border-radius: 15px !important;
+        background: #fff; 
+        padding: 10px;
+       
+    }
+
+
+    .accordian_earning_mobile .accordion-button:not(.collapsed) {
+        border-bottom: 1px solid #C0C0C0;
+        box-shadow: initial;
+    }
+
+    .accordian_earning_mobile .accordion-item h2.accordion-header button.accordion-button {
+        font-size: 14px;
+        line-height: 18px;
+        background: initial;
+        color: #313131;
+        font-weight: 450;
+    }
+
+
+
+    .accordian_earning_mobile .accordion-item h2.accordion-header .accordion-button:not(.collapsed)::after {}
+
+    .accordian_earning_mobile .accordion-item h2.accordion-header button.accordion-button:focus {
+        box-shadow: 0 0 0 0rem rgba(13, 110, 253, .25);
+    }
+
+    .accordian_earning_mobile .accordion-item .accordion-collapse {}
+
+    .accordian_earning_mobile .accordion-item .accordion-collapse .date_filter {}
+
+    .accordian_earning_mobile .accordion-item .accordion-collapse .appointment_mobile form.ant-form.ant-form-vertical {
+        width: 100%;
+
+    }
+
+    .mb-15 {
+        margin-bottom: 15px;
+
+    }
+
+    .accordian_earning_mobile .accordion-item .accordion-body {
+        padding: 1rem 15px;
+    }
+
+    .accordian_earning_mobile .accordion-item .accordion-body {
+        padding: 1rem 15px;
+    }
+
+    .appointment_mobile {
+        width: 200px;
+    }
+
+    .headingSameAll {
+        font-size: 11.8665px;
+        line-height: 15px;
+    }
+
+    .appointment_mobile1 h6,
+    .appointment_mobile h6 {
+        font-size: 11.8665px;
+        line-height: 15px;
+    }
+
+    .date_filter .from_01,
+    .date_filter .ant-picker-range-separator:after {
+        font-size: 11.8665px;
+        line-height: 20px;
+    }
+
+
+
+
+
+    .appointment_mobile .ant-col.ant-form-item-control {
+        border: 0.3px solid rgba(149, 148, 148, 0.368627451) !important;
+        border-radius: 6px !important;
+        height: 40px !important;
+        line-height: 40px !important;
+    }
+
+    .appointment_mobile .ant-select-selection-item {
+        font-size: 11px;
+        line-height: 16px;
+        /* identical to box height */
+        color: #959494;
+    }
+
+    .payment_type_mobile1 span.ant-select-selection-item {
+        font-size: 11px !important;
+        color: #959494;
+    }
+
+
+
+
+
+    .appointment_mobile .ant-col.ant-form-item-control {
+        border: 0.3px solid rgba(149, 148, 148, 0.368627451) !important;
+        border-radius: 6px !important;
+        height: 40px !important;
+        line-height: 40px !important;
+    }
+
+    .appointment_mobile .ant-select-selection-item {
+        font-size: 11px;
+        line-height: 16px;
+        /* identical to box height */
+        color: #959494;
+    }
+
+    span.ant-select-selection-item {
+        font-size: 11px !important;
+        color: #959494;
+    }
+
+   .flex_start .mobile_box span.ant-select-selection-item{
+    // font-size: 12px !important;
+    color: #959494;
+    font-family: "Circular Std";
+    // font-family: 300;
+   }
+
+    .app_id_details {
+        width: 100%;
+    }
+
+    .app_id_details .app_id_boxes {}
+
+    .app_id_details .app_id_boxes .box-1 {
+        width: 80%;
+    }
+
+    .app_id_details .app_id_boxes .box-1 h5 {
+        font-weight: 450;
+        font-size: 12px;
+        line-height: 15px;
+        color: #313131;
+        margin-bottom: 5px;
+    }
+
+    .app_id_details .app_id_boxes .box-1 p {
+        font-size: 12px;
+        line-height: 17px;
+        color: #313131;
+    }
+
+    .app_id_details .app_id_boxes .box-2 {
+        width: 20%;
+        margin-right: 10px;
+    }
+
+    .app_id_details .app_id_boxes .box-2 h6 {
+        background: rgba(59, 153, 21, 0.2);
+        border-radius: 5px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 17px;
+        /* identical to box height */
+        color: #3B9915;
+        /* display: inline-block; */
+        padding: 3px 5px;
+        text-align: center;
+    }
+
+    .app_id_details .app_id_boxes .box-1 h5 span {
+        font-weight: 400 !important;
+        font-family: "Nunito", sans-serif;
+    }
+
+    .accordian_earning_results button.accordion-button {
+        align-items: flex-start;
+        background: initial;
+        padding: .5rem 1.25rem;
+    }
+
+    .accordian_earning_results .accordion-item {
+        margin-bottom: 17px;
+        border-radius: 6px !important;
+        border: 0px;
+
+    }
+
+    .mobile_earning_dashboard .btn_search .input-group input {
+        border: 0 solid rgba(149, 148, 148, 0.368627451);
+    }
+
+    .accordian_earning_results .accordion-item h2.accordion-header button.accordion-button:focus {
+        box-shadow: 0 0 0 0rem rgba(13, 110, 253, 0.25);
+
+    }
+
+    .accordian_earning_results .accordion-button:not(.collapsed) {
+        border-bottom: 1px solid #C0C0C0;
+        box-shadow: initial;
+    }
+
+    .accordian_earning_results .accordion-body {
+        padding: 14px 1.25rem;
+    }
+
+    ul.patient_list_earning {
+        padding: 0;
+        display: flex;
+        margin: 0;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+
+    ul.patient_list_earning li {
+        width: 50%;
+        margin-bottom: 16px;
+    }
+
+    ul.patient_list_earning h6 {
+        font-weight: 450;
+        font-size: 12px;
+        margin-bottom: 6px;
+        line-height: 15px;
+        color: #078A8E;
+    }
+
+    ul.patient_list_earning p {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 17px;
+        /* identical to box height */
+        color: #313131;
+    }
+
+    ul.patient_list_earning li:last-child {
+        width: 100%;
+    }
+
+
+    .icon_edit_bank img {
+        position: absolute;
+        right: 7px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .icon_edit_bank {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #404040;
+        position: relative;
+        font-family: 'Circular Std';
+        text-transform: capitalize;
+        white-space: nowrap;
+    }
+
+    .bank-detail button.accordion-button {
+        padding: 1rem 1.25rem;
+    }
+
+    .bank-detail .accordion-item {
+        border-radius: 14px !important;
+        border: 0px;
+        margin-bottom: 0px;
+    }
+
+    ul.patient_list_earning p h6.headingDescVsmall {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 17px;
+        /* identical to box height */
+        color: #313131;
+        margin: 0;
+    }
+
+    .mobile_earning_dashboard .btn_search .input-group input {
+        border: 0 solid rgba(149, 148, 148, 0.368627451);
+    }
+
+    .bank-detail .accordion-item button.accordion-button {
+        border: 0px;
+    }
+
+    .bank-detail .accordion-item .accordion-body {
+        padding: 0px 1.25rem 14px 1.25rem;
+    }
+
+
+    h6.headingWithSpaceLarge.icon_edit_bank.filtesr {
+        font-size: 14px;
+        line-height: 18px;
+        width: 100%;
+        margin-bottom: 14px;
+    }
+
+    .arrowIconss .accordion-button::after {
+        margin-bottom: 14px !important;
+
+    }
+
+
+    .remove_filter {
+        font-weight: 450;
+        font-size: 13px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #EF6286;
+        margin-top: 5px;
+    }
+
+    .hide_mobile {
+        display: none !important;
+    }
+
+    .earning_accordian .accordion-header {}
+
+    .earning_accordian .accordion-header .accordion-button {
+        background: initial;
+        width: 100%;
+    }
+
+    .earning_accordian .accordion-header .accordion-button h5.heading_desc_small {}
+
+    .earning_accordian .accordion-item {
+
+        border-radius: 14px !important;
+        border: 0px;
+        margin-bottom: 0px;
+    }
+
+    .earning_accordian .accordion-item .ant-form {}
+
+    .earning_accordian .accordion-item .ant-form span.ant-select-selection-item {
+        padding-right: 0;
+    }
+
+    .ant-select-selector {}
+
+    .earning_accordian .accordion-item .ant-form .ant-select-selector {
+        padding: 0;
+    }
+
+    .earning_accordian .accordion-item .accordion-header .row {
+        width: 100%;
+    }
+
+    .earning_accordian .accordion-item .ant-form span.ant-select-arrow {
+        display: none;
+    }
+
+    .earning_accordian .accordion-item h2.accordion-header button.accordion-button:focus {
+        box-shadow: 0 0 0 0rem rgba(13, 110, 253, 0.25);
+    }
+
+    .earning_accordian button.accordion-button {
+        padding-bottom: 1rem;
+    }
+
+    .button_bank_details button {
+        background: #29BCC1;
+        border-radius: 4px;
+        border: 1px solid #29BCC1;
+    }
+
+    .button_bank_details {
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 31px;
+    }
+
+    .button_bank_details button:hover {
+        background: #29BCC1;
+        border: 1px solid #29BCC1;
+    }
+
+    .button_bank_details button:focus {
+        background-color: #29BCC1;
+        border-color: #29BCC1;
+        box-shadow: 0 0 0 0rem rgba(49, 132, 253, .5);
+    }
+
+    .no-earning p {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height */
+        text-align: center;
+        color: #959494;
+    }
+
+    .no-earning {
+        padding: 50px 0;
+    }
+
+    .accordion-button::after {
+        width: 1rem;
+        height: 1rem;
+        background-size: 1rem;
+       
+
+    }
+
+    .user_side_menu {
+        position: relative;
+    }
+
+    .user_side_menu h6 {
+        width: 26.04px;
+        height: 26.04px;
+        background: #EF6286;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 26px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    img.sidebar_image1 {
+        position: absolute;
+        top: -3px;
+        right: 0px;
+    }
+
+    .accordian_earning_mobile a.remove_filter {
+        font-weight: 450;
+        font-size: 13px;
+        line-height: 16px;
+        color: #EF6286;
+    }
+
+    .mobile_menu a.linkactive svg.icon path {
+        fill: #19B3B5;
+    }
+}

@@ -1,0 +1,12 @@
+.contentBlock .blockBody {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+    .contentBlock {
+        text-align: center;
+    }
+}

@@ -1,0 +1,78 @@
+.addTimeForm {
+  padding: 15px 0 25px;
+  border-top: 1px solid #9d9d9d;
+
+  &:nth-child(1) {
+    border-top: none;
+  }
+
+  .flex_start {
+    &.gap {
+      gap: 20px;
+      padding-bottom: 20px;
+
+      h5 {
+        padding-top: 10px;
+      }
+    }
+  }
+}
+
+.checkbox_container {
+  gap: 20px;
+  flex-wrap: wrap;
+
+  .ant-checkbox-wrapper {
+    margin-left: 0;
+    width: 160px;
+    padding-right: 0;
+  }
+}
+
+.ant-select-arrow,
+.ant-picker-suffix {
+  svg {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border: none;
+}
+
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector,
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 660px) {
+  .online_time {
+    &.cover_space3 {
+      padding-top: 10px;
+    }
+  }
+
+  .addTimeForm {
+    .ant-form {
+      .row {
+        .row {
+          padding-right: 0;
+
+          .col-6 {
+            padding-right: 0;
+          }
+        }
+      }
+
+      .checkbox_container {
+        .ant-checkbox-wrapper {
+          width: auto;
+          padding-left: 10px;
+          padding-right: 5px;
+        }
+      }
+    }
+  }
+}

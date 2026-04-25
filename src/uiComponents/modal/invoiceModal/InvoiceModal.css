@@ -1,0 +1,98 @@
+.viewInvoiceModal .modal-body .content h6{
+    text-transform: initial;
+}
+.leftSideInvoiceHeading{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #313131;
+
+}
+.rightSideInvoicePara{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #313131;
+    justify-content: flex-end;
+}
+.bggrayBox{
+    background: #F8F8F8;
+    border-radius: 12px;
+}
+
+.totalAmountBorder {
+    border-top: 0.2px solid #8E8E8E;
+    padding-top: 28px;
+    padding-bottom: 20px;
+
+}
+
+.appointProgress {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #078A8E;
+}
+
+.cancellationUnderText {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #404040;
+}
+
+.cancellationFee {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #F00001;
+
+}
+
+.totalAmountGst{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+    display: flex;
+    align-items: center;
+    color: #313131;
+}
+
+.inclusiveText{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #313131;
+}
+
+.viewInvoiceModal .modal-content {
+    border-radius: 12px;
+}

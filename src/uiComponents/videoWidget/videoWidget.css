@@ -1,0 +1,195 @@
+.videoWidget .web-media {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.videoWidget .react-player {
+    margin-bottom: 20px;
+}
+
+.videoWidget .findTheBestHealthCare .container {
+    padding: 0;
+}
+
+.videoWidget .sectionHeadingMed {
+    margin-bottom: 0;
+}
+
+.videoWidget .btn_icon_box {
+    align-items: center;
+}
+
+.videoWidget .underline_ancer::after {
+    bottom: unset;
+}
+
+/* ------------------------------------------------- */
+.boxArea-Language .profileImgVideo {
+    width: 75px;
+    height: 75px;
+}
+
+.boxArea-Language ul li {
+    padding-right: 25px;
+    text-transform: uppercase;
+}
+
+.boxArea-Language ul li a.active {
+    color: #29bcc1;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.borderRadius {
+    border-radius: 10px;
+}
+
+.urdu .boxArea-Language ul.d-flex {
+    padding-right: 0;
+}
+
+.urdu .boxArea-Language ul.d-flex li {
+    padding-right: 0;
+    padding-left: 25px;
+}
+
+.urdu .boxArea-Language .pe-4-Urdu {
+    padding-right: 1.5rem !important;
+}
+
+.video-box {
+    width: 773px;
+    height: 447px;
+}
+
+
+.video-description {
+    width: 100%;
+    height: 113px;
+    border: 1px solid black;
+}
+
+
+.approved-by {
+    background: #FFFFFF;
+    box-shadow: 0px -2px 4px rgba(131, 131, 131, 0.1), 0px 10px 20px rgba(131, 131, 131, 0.15);
+    border-radius: 10px;
+    margin-top: 10px;
+
+
+}
+
+.select-by-language {
+    border-bottom: 2px solid #29BCC1;
+    border-left: 2px solid #29BCC1;
+    border-right: 2px solid #29BCC1;
+    border-radius: 10px;
+}
+
+
+.language-tags {
+    display: inline-block;
+    margin: 0 15px;
+    cursor: pointer;
+    /* text-decoration: underline; */
+}
+
+.language-active {
+    background-color: #fff;
+    color: #29BCC1;
+    padding: 10px;
+    text-decoration: underline;
+    text-decoration-color: #29BCC1;
+    border: 0.6px solid #E6E5E5;
+    box-shadow: 2px -1px 5px rgba(96, 96, 96, 0.05), -1px 2px 5px rgba(96, 96, 96, 0.1);
+    border-radius: 5px;
+
+
+}
+
+.video-player-box {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.language-boxes {
+    background-color: #EDEDED;
+    padding: 8px;
+    border: 1px solid #EDEDED;
+}
+
+
+.language-boxes:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.language-boxes:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.language-boxes button {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 10px;
+}
+
+.selectLanguage {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 31px;
+    text-transform: capitalize;
+    color: #313131;
+    margin-top: 14px;
+}
+
+.video-area-article.container .video-player-box>div {
+    height: 480px !important;
+}
+
+.video-area-article {
+    border: 2px solid #29BCC1;
+    border-radius: 10px;
+}
+
+.image-area-article img.img-fluid {
+    border-radius: 20px;
+}
+.video-radius-zeor{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+@media only screen and (max-width: 575px) {
+    .language-boxes {
+        padding: 8px 0;
+    }
+
+    .language-boxes button {
+        margin: 0 3px;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .video-area-article.container .video-player-box>div {
+        height: 280px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .video-area-article.container .video-player-box>div {
+        height: 220px !important;
+    }
+}
+
+
+@media print {
+  .videoWidget {
+    display: none !important;
+  }
+}

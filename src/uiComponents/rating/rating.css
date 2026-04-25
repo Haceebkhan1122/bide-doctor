@@ -1,0 +1,26 @@
+.rating {
+  display: flex;
+  align-items: center;
+  min-height: 35px;
+  min-width: 130px;
+  border-top-right-radius: 20px;
+  background-color: var(--tifannyblue-clr);
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--white-clr);
+}
+
+.rating h6 {
+  color: var(--white-clr);
+  font-size: 0.938rem;
+  font-weight: 400;
+}
+
+.rating span {
+  opacity: 0.5;
+}
+.rating img {
+  margin-right: 10px;
+  margin-left: 10px;
+}

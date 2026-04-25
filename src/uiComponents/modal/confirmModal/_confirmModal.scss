@@ -1,0 +1,52 @@
+.confirmModal {
+	.modal-content {
+		border-radius: 23px;
+		min-height: 267px;
+	}
+	.modal-dialog {
+		max-width: 400px;
+	}
+	.content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 20px 0px 15px;
+		>div {
+			&:nth-child(2) {
+				padding: 30px 0;
+			}
+		}
+		.btnsContainer {
+			display: flex;
+			gap: 20px;
+			width: 100%;
+			button {
+				width: 100%;
+				padding: 10px 50px;
+			}
+		}
+	}
+	.sectionHeadingMed {
+		font-size: 1.563rem;
+		line-height: 30px;
+		text-align: center;
+		margin: auto;
+	}
+	.tick_div {
+		background-color: #DEFFD1;
+		padding: 0 3px 5px;
+		border-radius: 50%;
+		.tick_icon {
+			font-size: 4rem;
+		}
+	}
+	.flex_center {
+		gap: 15px;
+	}
+}
+@media screen and (max-width: 550px) {
+	.modal-dialog {
+		margin: 1.5rem;
+	}
+}

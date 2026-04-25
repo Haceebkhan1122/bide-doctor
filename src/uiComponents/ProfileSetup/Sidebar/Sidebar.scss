@@ -1,0 +1,265 @@
+.sidebar_profile {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 18px 20px 2px 20px;
+
+}
+
+.chart_style.pb-3 {
+    padding-bottom: 0 !important;
+}
+
+.pagination_sidebar {
+    position: relative;
+    // padding-left: 83px;
+}
+
+.progress_left.current_left:after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    background: #A9DBDC;
+    top: 0px;
+    left: 50%;
+    background-repeat: no-repeat;
+    width: 2px;
+    background-position: top center;
+    transform: translateX(-50%);
+}
+
+.progressbar50 .pagination_sidebar.current_pagination:before,
+.progressbar75 .pagination_sidebar:before {
+    background: url("data:image/svg+xml,%0A%3Csvg width='80' height='80' viewBox='0 0 80 80' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='40' cy='40' r='40' fill='%2383C256' fill-opacity='0.19'/%3E%3Ccircle cx='40' cy='40' r='35' fill='%2383C256'/%3E%3Cpath d='M27 40.3636L35.4872 48.7273L52.4545 32' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    background-size: cover;
+    outline: 0;
+    box-shadow: initial;
+    width: 65.8px;
+    height: 65.8px;
+    border: 0;
+}
+
+.progressbar50 .pagination_sidebar.current_pagination:after,
+.progressbar75 .pagination_sidebar.current_pagination:after {
+    width: 65.8px;
+    top: 59px;
+}
+
+// .progressbar50 .pagination_sidebar:nth-child(2):before,
+// .progressbar75 .pagination_sidebar:nth-child(3):before {
+//     background: #CFECED;
+//     box-shadow: initial;
+//     border: 4px solid #A9DBDC;
+// }
+
+
+
+// .progressbar50 .pagination_sidebar:nth-child(2):after,
+// .progressbar75 .pagination_sidebar:nth-child(2):after {
+//     content: "";
+//     height: 100%;
+//     position: absolute;
+//     left: 0;
+
+//     background-repeat: no-repeat;
+
+//     background-position: top center;
+//     background-image: url("data:image/svg+xml,%0A%3Csvg width='11' height='115' viewBox='0 0 11 115' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='5.5' x2='5.5' y2='115' stroke='%23A9DBDC' stroke-width='2'/%3E%3Cpath d='M5.5 24.6667C2.55448 24.6667 0.166667 27.0545 0.166667 30C0.166667 32.9455 2.55448 35.3333 5.5 35.3333C8.44552 35.3333 10.8333 32.9455 10.8333 30C10.8333 27.0545 8.44552 24.6667 5.5 24.6667ZM4.5 0L4.5 30H6.5L6.5 0L4.5 0Z' fill='%2319B3B5'/%3E%3C/svg%3E%0A");
+//     width: 65.8px;
+//     top: 54px;
+// }
+
+.pagination_sidebar .details_sidebar {
+    h5 {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        /* identical to box height */
+        color: #646464;
+        margin-bottom: 3px;
+        margin-top: 8px;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        color: #646464;
+        margin-bottom: 20px;
+    }
+
+}
+
+.pagination_sidebar.current_box .details_sidebar p,
+.pagination_sidebar.current_box .details_sidebar h5 {
+    color: #313131;
+}
+
+.circle_list {
+    padding: 0;
+
+    li {
+        font-family: "Nunito", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 17px;
+        color: #000000;
+        list-style: none;
+        margin-bottom: 11px;
+        position: relative;
+        padding-left: 28px;
+    }
+}
+
+
+.circle_list li:before {
+    width: 16px;
+    height: 16px;
+    background: #FFFFFF;
+    border: 0.8px solid #19B3B5;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+}
+
+.circle_list li.list01.listactive:before {
+    content: '';
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='10' cy='10' r='9.5' fill='%2319B3B5' stroke='%2319B3B5'/%3E%3Cpath d='M5 10L8.00084 13L14 7' stroke='white' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    border: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.progress_custom.height-86:after {
+    display: none;
+}
+
+.progress_custom.height-86:after {
+    display: none;
+}
+
+
+.progress_custom {
+    width: 11px;
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    transform: translateX(-50%);
+    z-index: 9;
+
+    &:after {
+        content: "";
+        width: 11px;
+        background: #19B3B5;
+        position: absolute;
+        left: 50%;
+        height: 11px;
+        transform: translateX(-50%);
+        z-index: 9;
+        bottom: 0;
+        border-radius: 50%;
+    }
+
+    &:before {
+        content: "";
+        width: 2px;
+        background: #19B3B5;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        height: 100%;
+        transform: translateX(-50%);
+        z-index: 9;
+    }
+}
+
+
+.height-33 {
+    height: 17%;
+}
+
+.height-50 {
+    height: 35%;
+}
+
+.height-66 {
+    height: 35%;
+}
+
+.height-40 {
+    height: 26%;
+}
+
+.height-46 {
+    height: 46%;
+}
+
+.height-80 {
+    height: 58%;
+}
+
+.height-70 {
+    height: 62%;
+}
+
+.height-101 {
+    height: 72%;
+}
+
+.height-99 {
+    height: 65%;
+}
+
+.height-86 {
+    height: 61%;
+}
+
+.height-52 {
+    height: 52%;
+}
+
+.progress_left {
+    width: 66px;
+    margin-right: 23px;
+    position: relative;
+    z-index: 9;
+    min-width: 60px;
+}
+
+.circle01 {
+    width: 66px;
+    height: 66px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4.8px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    z-index: 99;
+    position: relative;
+}
+
+.progress_left.current_left .circle01.circle-current {
+
+    background: #CFECED;
+    border: 6px solid #A9DBDC;
+    box-shadow: initial;
+}
+
+.progress_left .circle01.blue-circle {
+    // outline: 3px solid #A9DBDC;
+    background: #CFECED;
+    border: 6px solid #A9DBDC;
+    box-shadow: initial;
+}
+
+.circle-active {
+    background: #83C256 url("data:image/svg+xml,%0A%3Csvg width='30' height='21' viewBox='0 0 30 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 10.3636L10.4872 18.7273L27.4545 2' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 6px solid #56c26a26;
+    box-shadow: initial;
+}

@@ -1,0 +1,251 @@
+.notificationToastContainer {
+    /* min-height: 30px; */
+    transition: all .3s ease-in-out;
+    position: relative;
+    z-index: 999;
+    top: 0;
+}
+
+.notificationToast {
+    background-color: #F2F2F2;
+    -webkit-print-color-adjust: exact;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 65px;
+    color: #383838;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.notificationToast h6,
+.notificationToast button {
+    cursor: pointer;
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    margin: 5px;
+    color: #383838;
+}
+
+.notificationToast button {
+    margin: 0;
+}
+
+.transformTop {
+    min-height: 0 !important;
+}
+
+/* ------------------ */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 17px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #29bcc1;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #29bcc1;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(28px);
+    -ms-transform: translateX(28px);
+    transform: translateX(28px);
+}
+
+nav.stickyNavbar {
+    top: 0px;
+}
+
+/*------ ADDED CSS ---------*/
+
+// .on {
+//     display: none;
+// }
+
+// .on,
+// .off {
+//     color: white;
+//     position: absolute;
+//     transform: translate(-50%, -50%);
+//     top: 25%;
+//     left: 25%;
+//     font-size: 10px;
+//     font-family: Verdana, sans-serif;
+// }
+
+// .on {
+//     top: 8px;
+// }
+
+// .off {
+//     left: auto;
+//     right: -5px;
+//     top: 8px;
+// }
+
+input:checked+.slider .on {
+    display: block;
+}
+
+input:checked+.slider .off {
+    display: none;
+}
+
+
+/*--------- END --------*/
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 17px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.for-doctors button {
+    background-color: transparent !important;
+    border: none;
+    color: #19B3B5;
+    text-decoration: underline;
+
+}
+
+.for-doctors button:hover {
+    color: #19B3B5;
+}
+
+.for-doctors button:active,
+.for-doctors button:focus {
+    color: #19B3B5 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.notificationToastContainer .shareArticleDropdown .dropdown-menu.show {
+    display: block;
+    background-color: #fff;
+    border-radius: 10px;
+    border-color: transparent;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+}
+
+.dropdown-doctors {
+    width: 70%;
+    text-align: right;
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.dropdown-doctors span {
+    margin-right: 7px;
+}
+
+.option-one {
+    cursor: pointer;
+}
+
+.option-one:hover {
+    color: #35A9AD;
+}
+
+.coming-soon {
+    padding: 0 6rem;
+}
+
+.coming-soon h3 {
+    font-family: 'Noto Naskh Arabic' !important;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+.coming-soon span {
+    display: block;
+    color: #19B3B5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+
+}
+
+
+
+.switch {
+    height: 18px !important;
+    width: 35px !important
+}
+
+.slider.round:before {
+    height: 14px !important;
+    width: 14px !important
+}
+
+input:checked+.slider:before {
+    transform: translateX(18px) !important
+}
+
+.control_lang,
+.main_controller {
+    align-items: center;
+    display: flex;
+}
+
+.control_lang {
+    justify-content: space-between;
+    width: 8%;
+}
+
+.ant-modal-body {
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 1.5715;
+    padding: 24px;
+}
+
+.urdumodal .ant-modal-content {
+    border-radius: 20px;
+    text-align: center;
+}

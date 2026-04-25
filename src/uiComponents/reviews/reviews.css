@@ -1,0 +1,21 @@
+.reviews-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.review-rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.back-to-dashboard {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.back-to-dashboard p {
+  font-weight: 600;
+}
